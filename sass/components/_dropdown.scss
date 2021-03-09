@@ -1,0 +1,33 @@
+details ul{
+  margin: 0px;
+  padding: 0px;
+}
+details ul li{
+  background-color: #292021;
+  border: 1px solid rgba($color: #fff, $alpha: 0.3);
+  font-size: 43px;
+  list-style: none;
+  padding: 10px 0px 10px 120px;
+  width: 333px;
+}
+details li a{
+  color: #fff;
+
+  text-decoration: none;
+}
+details li a:hover{
+  color: #638C51;
+}
+summary{
+  background-color: #292021;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 43px;
+  padding: 10px 12px;
+  outline: 0;
+  width: 431px;
+}
+summary:hover{
+  color: #638C51;
+}
