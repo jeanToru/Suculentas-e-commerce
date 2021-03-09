@@ -1,0 +1,94 @@
+// Variables
+
+// Colors
+$dark-brown: #292021;
+$light-brown-hover: #886750;
+$white: #ffff;
+$light-gray: #ededed;
+$placeholder-search: #494b46;
+
+// Fonts
+$khula: 'Khula', sans-serif;
+
+
+// header
+.body {
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1280px;
+
+}
+.header {
+  background-color: #ffffff;
+  height: 110px;
+  margin: 0 auto;
+  width: 1280px;
+  font-size: 18px;
+}
+.header-logo{
+  float: left;
+  margin-top: 30px;
+}
+.header-menu{
+  float: left;
+  margin-top: 38px;
+}
+.menu-nav-list {
+  li{
+    float: left;
+    list-style: none;
+    margin-top: 0;
+  }
+  li+li{
+    margin-left: 19px;
+  }
+}
+
+// boton-menu
+// padding: 10px 16px;
+
+.nav-list {
+  background-color: $dark-brown;
+  border-radius: 44px;
+  border-style: none;
+  font-family: $khula;
+  padding: 7px 30px;
+  a{
+    color: $white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  &:hover{
+    background-color: $light-brown-hover;
+  }
+}
+
+.search-bar{
+  float: left;
+  margin-top: 55px;
+
+  input{
+    background-color: $light-gray;
+    border: none;
+    border-radius: 44px ;
+    color: $placeholder-search;
+    height: 38px;
+    width: 153px;
+  }
+}
+.sign-in-cart{
+  margin-top: 38px;
+  float: right;
+}
+.tangle-1{
+  float: left;
+  width: 800px;
+}
+.tangle-2{
+  float: right;
+  width: 400px;
+}
