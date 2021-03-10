@@ -1,6 +1,6 @@
 .container-slider{
-  max-width: 1100px;
   margin: auto;
+  max-width: 1100px;
   overflow: hidden;
   position: relative;
   width: 90%;
@@ -20,9 +20,9 @@
   width: 100%;
 }
 .slider--btn{
-  cursor: pointer;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 50%;
+  cursor: pointer;
   font-size: 30px;
   font-weight: bold;
   height: 40px;
