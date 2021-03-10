@@ -36,10 +36,3 @@
 .hide {
   margin-left: -1028px;
 }
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
