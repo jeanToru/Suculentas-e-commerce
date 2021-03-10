@@ -1,0 +1,67 @@
+.content {
+  width: 792px;
+  margin: 0 auto;
+}
+
+.card {
+  float: left;
+  margin-bottom: 82px;
+  width: 248px;
+}
+
+.card2 {
+  float: left;
+  margin-bottom: 82px;
+  width: 248px;
+  position: relative;
+}
+
+.card + .card {
+  margin-left: 24px;
+}
+
+.card2 + .card2 {
+  margin-left: 24px;
+}
+
+.titleCard {
+  color: #292021;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #292021;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+
+.details {
+  background-color: #292021;
+  border: none;
+  border-radius: 102px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 16px;
+  position: relative;
+  top: 10px;
+  left: 70px;
+}
+
+.stars {
+  margin-left: 54px;
+}
+
+.offer {
+  background-color: #A31523;
+  color: white;
+  left: 0px;
+  padding: 10px 10px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}

@@ -1,0 +1,45 @@
+.carrusel {
+  margin: 0 auto;
+  width: 1055px;
+}
+
+.cardProduct {
+  float: left;
+  overflow: hidden;
+  width: 1028px;
+}
+
+
+.cardList {
+  display: flex;
+  float: left;
+  width: 1198px;
+  .card + .card {
+    margin-left: 10px;
+  }
+
+}
+
+.arrowBack {
+  position: relative;
+  top: 127px;
+  right: 0px;
+}
+
+.arrowGo {
+  float: left;
+  position: relative;
+  top: 78px;
+  left: -27px;
+}
+
+.hide {
+  margin-left: -1028px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
