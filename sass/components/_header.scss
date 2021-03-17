@@ -1,4 +1,3 @@
-// header
 .body {
   margin: 0 auto;
 }
@@ -9,21 +8,21 @@
 
 }
 .header {
-  background-color: #ffffff;
+  background-color: $white;
   height: 110px;
   margin: 0 auto;
   width: 1280px;
   font-size: 18px;
 }
-.header-logo{
+.header__logo{
   float: left;
   margin-top: 30px;
 }
-.header-menu{
+.header__menu{
   float: left;
   margin-top: 38px;
 }
-.menu-nav-list {
+.menu__nav {
   li{
     float: left;
     list-style: none;
@@ -37,7 +36,7 @@
 // boton-menu
 // padding: 10px 16px;
 
-.nav-list {
+.nav__list {
   background-color: $dark-brown;
   border-radius: 44px;
   border-style: none;
@@ -54,7 +53,7 @@
   }
 }
 
-.search-bar{
+.search__bar{
   float: left;
   margin-top: 55px;
 
@@ -64,10 +63,16 @@
     border-radius: 44px ;
     color: $placeholder-search;
     height: 38px;
+    width: 153px;background-color: $light-gray;
+    border: none;
+    border-radius: 44px ;
+    color: $placeholder-search;
+    height: 38px;
     width: 153px;
   }
 }
-.sign-in-cart{
+
+.sign__in__cart{
   margin-top: 38px;
   float: right;
 }
@@ -79,3 +84,4 @@
   float: right;
   width: 400px;
 }
+

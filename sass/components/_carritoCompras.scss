@@ -1,40 +1,41 @@
-#contentShoppingCart{
+#shoppingCart{
   margin: 0 auto;
   margin-top: 100px;
   width: 1080px;
 }
-.contentSuculenta{
+.shoppingCart__content{
   border-bottom: 1px solid #857876;
 }
-.imgShoppingCart{
+.shoppingCart__content--img{
   float: left;
   margin-left: 147px;
 }
-.infoShoppingCart{
-  padding-top: 100px;
-  float: left;
-}
-.titleShoppingCart{
+.shoppingCart__content--title{
+  color: #292021;
   float: left;
   font-size: 18px;
-  color: #292021;
-  padding-top: 100px;
   margin-left: 75px;
+  padding-top: 100px;
 }
-.amount{
+.shoppingCart__content--info{
+  float: right;
+  padding-right: 200px;
+  padding-top: 100px;
+}
+.info--amount{
   float: left;
   margin-left: 54px;
   margin-right: 54px;
 }
-.cost{
+.info--cost{
   float: left;
   margin-right: 38px;
 }
-.botonCancel{
-  border:1px solid #292021;
+.info--button{
   background-color: #292021;
+  border:1px solid #292021;
+  border-radius: 100%;
   color: #ffffff;
-  border-radius: 30px;
-  margin-top: 15px;
+  margin-top: 12px;
   padding: 5px 10px;
 }

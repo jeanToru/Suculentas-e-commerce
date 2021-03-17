@@ -4,14 +4,14 @@
   text-align: center;
   width: 1138px;
 }
-#img-contact{
+#contact--img{
   background-image: url(../img/img-contacto.png);
   background-size: cover;
   display: block;
   height: 400px;
   width: 1138px;
 }
-#title-contact{
+#contact--title{
   font-family: 'Bebas Neue', cursive;
   font-size: 48px;
   letter-spacing: 3px;
@@ -19,14 +19,14 @@
   text-transform: uppercase;
 
 }
-#info-Form h3{
+#contact--info h3{
   font-family: 'Bebas Neue', cursive;
   font-size: 26px;
   letter-spacing: 3px;
   margin: 0;
   text-transform: uppercase;
 }
-#info-Form{
+#contact--info{
   font-family: 'Khula', sans-serif;
   float: left;
   margin-right: 100px;
@@ -36,19 +36,21 @@
   text-align: left;
   width: 360px;
 }
-#info-Form span{
+#contact--info span{
   font-weight: bold;
 }
+
+/*-----Form-----*/
 #form{
   padding-top: 30px;
 }
-.form-group{
+.form__content{
   display: flex;
   margin-bottom: 16px;
   flex-direction: column;
 }
 
-.form-group label {
+.form__content label {
   color: #292021;
   font-size: 18px;
   font-weight: bold;
@@ -56,19 +58,19 @@
   text-align: left;
 }
 
-.form-group input{
+.form__content input{
   border: 1px solid #292021;
   font-size: 18px;
   height: 35px;
   width: 400px;
 }
-.botonesForm{
+.form__button{
   background-color: #292021;
   border: none;
   border-radius: 50px;
   color: #FFFFFF;
   margin-bottom: 60px;
   margin-right: 120px;
-  margin-top: 30px;
-  padding: 10px 20px;
+  margin-top: 20px;
+  padding: 15px 30px;
 }
