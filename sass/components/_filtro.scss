@@ -1,20 +1,18 @@
-.filtro--Content{
-  margin-top: 100px;
+.filtro--Content {
   margin-left: 400px;
+  margin-top: 100px;
 }
-.filtro--Content h2{
+
+.filtro--Content h2 {
   text-align: left;
 }
-summary.filtro--a{
-  font-size: 36px;
+
+summary.filtro--a {
   text-transform: uppercase;
 }
-details li a.filtro--a {
-  font-size: 20px;
-}
-.filtro--Content select{
-  background-color: #292021;
-  color: white;
-  font-size: 16px;
+
+.filtro--Content select {
+  background-color: $dark-brown;
+  color: $white;
   padding: 10px 20px 10px 0;
 }
