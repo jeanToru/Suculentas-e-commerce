@@ -15,23 +15,23 @@
   width: 1080px;
 }
 .button-principal{
-  background-color: #292021;
+  background-color: $dark-brown;
   border: none;
   border-radius: 102px;
-  color: white;
+  color: $white;
   font-size: 16px;
   font-weight: bold;
   padding: 10px 20px;
   text-decoration: none;
 
   &:hover {
-    background-color: #886750;
-    color: white;
+    background-color: $light-brown-hover;
+    color: $white;
   }
 }
 
-.viewOffer {
-  background-color: #C9C0BB;
+.button-secondary{
+  background-color: $beige;
   border: none;
   border-radius: 102px;
   color: #292021;
@@ -40,8 +40,8 @@
   padding: 10px 20px;
 
   &:hover {
-    background-color: #886750;
-    color: white;
+    background-color: $light-brown-hover;
+    color: $white;
   }
 }
 .button--margin{
