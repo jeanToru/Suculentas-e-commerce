@@ -3,9 +3,7 @@
 }
 @media(max-width: 525px){
   #accordion{
-    color: #292021;
     display: block;
-    font-size: 16px;
     margin-top: 50px;
     margin-bottom: 100px;
     width: 500px;
@@ -22,8 +20,8 @@
   }
   .accordion__content--title{
     cursor: pointer;
-    background-color:#292021;
-    color: #fff;
+    background-color:$dark-brown;
+    color: $white;
     display: block;
     font-size: 20px;
     padding: 15px 15px;
@@ -38,9 +36,8 @@
     float: right;
   }
   .accordion__content--title:hover{
-    background-color: #886750;
-    color: #fff;
-    font-size: 20px;
+    background-color: $light-brown-hover;
+    color: $white;
   }
   .accordion__info{
     padding-left: 10px;

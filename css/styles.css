@@ -1,13 +1,28 @@
 @charset "UTF-8";
 /*----Global----*/
+h1, h2, h3, h4 {
+  color: #292021;
+  font-family: "Bebas Neue", cursive; }
+
+p {
+  font-size: 18px;
+  color: #292021;
+  font-family: "Open Sans", sans-serif; }
+
+li {
+  font-size: 16px;
+  color: #292021;
+  font-family: "Open Sans", sans-serif; }
+
+a {
+  color: #292021;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold; }
+
 .clearfix::after {
   content: "";
   clear: both;
   display: table; }
-
-h2 {
-  font-size: 36px;
-  text-align: left; }
 
 /*----Components----*/
 #shoppingCart {
@@ -106,7 +121,7 @@ details ul li {
   background-color: #292021;
   border: 1px solid rgba(255, 255, 255, 0.3);
   list-style: none;
-  padding: 10px 0px 10px 120px;
+  padding: 15px 0px 15px 120px;
   width: 333px; }
 
 details li a {
@@ -121,7 +136,9 @@ summary {
   border: none;
   color: #ffff;
   cursor: pointer;
-  padding: 10px 12px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  padding: 20px 12px;
   outline: 0;
   width: 431px; }
 
@@ -129,7 +146,7 @@ summary:hover {
   color: #886750; }
 
 #contact {
-  background-color: #C9C0BB;
+  background-color: #c9c0bb;
   margin: 0 auto;
   text-align: center;
   width: 1138px; }
@@ -142,26 +159,20 @@ summary:hover {
   width: 1138px; }
 
 #contact--title {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 48px;
   letter-spacing: 3px;
   padding-top: 20px;
   text-align: center;
   text-transform: uppercase; }
 
 #contact--info h3 {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 26px;
   letter-spacing: 3px;
   margin: 0;
   text-transform: uppercase; }
 
 #contact--info {
-  font-family: 'Khula', sans-serif;
   float: left;
   margin-right: 100px;
   margin-left: 130px;
-  font-size: 18px;
   padding-top: 30px;
   text-align: left;
   width: 360px; }
@@ -187,7 +198,6 @@ summary:hover {
 
 .form__content input {
   border: 1px solid #292021;
-  font-size: 18px;
   height: 35px;
   width: 400px; }
 
@@ -202,7 +212,7 @@ summary:hover {
   padding: 15px 30px; }
 
 .form_button--margin {
-  margin-right: 120px;
+  margin-left: 450px;
   margin-bottom: 75px; }
 
 .container-slider {
@@ -361,9 +371,7 @@ img {
 
 @media (max-width: 525px) {
   #accordion {
-    color: #292021;
     display: block;
-    font-size: 16px;
     margin-top: 50px;
     margin-bottom: 100px;
     width: 500px; }
@@ -376,7 +384,7 @@ img {
   .accordion__content--title {
     cursor: pointer;
     background-color: #292021;
-    color: #fff;
+    color: #ffff;
     display: block;
     font-size: 20px;
     padding: 15px 15px;
@@ -390,8 +398,7 @@ img {
     float: right; }
   .accordion__content--title:hover {
     background-color: #886750;
-    color: #fff;
-    font-size: 20px; }
+    color: #ffff; }
   .accordion__info {
     padding-left: 10px;
     padding-right: 10px; }
@@ -435,7 +442,6 @@ img {
   margin-left: 130px; }
 
 .input1 {
-  font-family: "Khula", sans-serif;
   height: 40px;
   margin-bottom: 10px;
   padding-left: 50px;
@@ -476,24 +482,22 @@ img {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: black;
   background-color: rgba(46, 44, 44, 0.4); }
 
 .alert {
-  height: 386px;
+  height: 300px;
   width: 764px;
   position: fixed;
-  background-color: #fefefe;
+  background-color: #ffff;
   margin: auto;
-  border: 1px solid #888;
+  border: 1px solid #292021;
   position: relative; }
 
 .alert img {
   margin-top: 22px;
   margin-left: 320px; }
 
-.alert h3 {
-  font-size: 46px;
+.alert h2 {
   text-align: center; }
 
 .alert .details {
@@ -527,25 +531,6 @@ details li a.filtro--a {
   margin-left: 400px;
   padding: 25px 0;
   width: 500px; }
-
-.title {
-  color: #292021;
-  font-family: "Bebas Neue", cursive; }
-
-.parrafos {
-  font-size: 18px;
-  color: #292021;
-  font-family: "Khula", sans-serif; }
-
-.lists {
-  font-size: 16px;
-  color: #292021;
-  font-family: "Khula", sans-serif; }
-
-.links {
-  color: #292021;
-  font-family: "Khula", sans-serif;
-  font-weight: bold; }
 
 .content--buttons {
   width: 100px;
@@ -737,7 +722,6 @@ details li a.filtro--a {
 
 .footer {
   background-color: #c9c0bb;
-  font-family: "Khula", sans-serif;
   font-size: 18px;
   font-weight: bold;
   height: 148px;
