@@ -3,39 +3,45 @@
   margin-top: 100px;
   width: 1080px;
 }
+
 .shoppingCart__content{
-  border-bottom: 1px solid #857876;
+  border-bottom: 1px solid $beige;
 }
+
 .shoppingCart__content--img{
   float: left;
   margin-left: 147px;
 }
+
 .shoppingCart__content--title{
-  color: #292021;
+  color: $dark-brown;
   float: left;
-  font-size: 18px;
   margin-left: 75px;
   padding-top: 100px;
 }
+
 .shoppingCart__content--info{
   float: right;
   padding-right: 200px;
   padding-top: 100px;
 }
+
 .info--amount{
   float: left;
   margin-left: 54px;
   margin-right: 54px;
 }
+
 .info--cost{
   float: left;
   margin-right: 38px;
 }
+
 .info--button{
-  background-color: #292021;
-  border:1px solid #292021;
+  background-color: $dark-brown;
+  border:1px solid $dark-brown;
   border-radius: 100%;
-  color: #ffffff;
+  color: $white;
   margin-top: 12px;
   padding: 5px 10px;
 }

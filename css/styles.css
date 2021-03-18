@@ -31,7 +31,7 @@ a {
   width: 1080px; }
 
 .shoppingCart__content {
-  border-bottom: 1px solid #857876; }
+  border-bottom: 1px solid #c9c0bb; }
 
 .shoppingCart__content--img {
   float: left;
@@ -40,7 +40,6 @@ a {
 .shoppingCart__content--title {
   color: #292021;
   float: left;
-  font-size: 18px;
   margin-left: 75px;
   padding-top: 100px; }
 
@@ -62,7 +61,7 @@ a {
   background-color: #292021;
   border: 1px solid #292021;
   border-radius: 100%;
-  color: #ffffff;
+  color: #ffff;
   margin-top: 12px;
   padding: 5px 10px; }
 
@@ -121,13 +120,12 @@ details ul {
 details ul li {
   background-color: #292021;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  font-size: 43px;
   list-style: none;
-  padding: 10px 0px 10px 120px;
+  padding: 15px 0px 15px 120px;
   width: 333px; }
 
 details li a {
-  color: #fff;
+  color: #ffff;
   text-decoration: none; }
 
 details li a:hover {
@@ -136,10 +134,11 @@ details li a:hover {
 summary {
   background-color: #292021;
   border: none;
-  color: #fff;
+  color: #ffff;
   cursor: pointer;
-  font-size: 43px;
-  padding: 10px 12px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  padding: 20px 12px;
   outline: 0;
   width: 431px; }
 
@@ -426,7 +425,6 @@ img {
   .modal__content h2 {
     color: #292021;
     font-family: "Bebas Neue", cursive;
-    font-size: 2.5em;
     text-align: center; }
   .modal__content .close__modal img {
     margin: 10px 10px; }
@@ -444,7 +442,6 @@ img {
   margin-left: 130px; }
 
 .input1 {
-  font-size: 1.25em;
   height: 40px;
   margin-bottom: 10px;
   padding-left: 50px;
@@ -895,8 +892,7 @@ li a.menu__family {
   background-color: #ffff;
   height: 110px;
   margin: 0 auto;
-  width: 1280px;
-  font-size: 18px; }
+  width: 1280px; }
 
 .header__logo {
   float: left;
@@ -919,8 +915,7 @@ li a.menu__family {
   .nav__list a {
     color: #ffff;
     font-weight: bold;
-    text-decoration: none;
-    font-size: 14px; }
+    text-decoration: none; }
   .nav__list:hover {
     background-color: #886750; }
 
@@ -947,7 +942,7 @@ li a.menu__family {
 
 .tangle-1 {
   float: left;
-  width: 800px; }
+  width: 850px; }
 
 .tangle-2 {
   float: right;
@@ -963,55 +958,54 @@ li a.menu__family {
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+  background: rgba(255, 255, 255, 0);
+  display: block;
   left: 0px;
   height: 50px;
-  width: 50px;
-  display: block;
   position: fixed;
-  background: rgba(255, 255, 255, 0);
+  user-select: none;
+  width: 50px;
   z-index: 1; }
 
 #drawer-toggle-label:before {
   content: '';
+  background: #292021;
+  box-shadow: 0 6px 0 #292021, 0 12px 0 #292021;
   display: block;
-  position: absolute;
   height: 2px;
-  width: 24px;
-  background: #8d8d8d;
   left: 13px;
+  position: absolute;
   top: 18px;
-  box-shadow: 0 6px 0 #8d8d8d, 0 12px 0 #8d8d8d; }
+  width: 24px; }
 
 header {
-  width: 100%;
-  position: fixed;
+  background: #ffff;
   left: 0px;
-  background: #efefef;
-  padding: 10px 10px 10px 50px;
-  font-size: 30px;
   line-height: 30px;
+  padding: 10px 10px 10px 50px;
+  position: fixed;
+  width: 100%;
   z-index: 0; }
 
 #drawer {
-  position: fixed;
-  top: 0;
-  left: -1000px;
+  background: #ffff;
+  box-sizing: border-box;
   height: 100%;
-  width: 1000px;
-  background: #fff;
+  left: -1000px;
+  margin: 0;
   overflow-x: hidden;
   overflow-y: scroll;
+  padding: 0;
+  position: fixed;
+  transition: .25s ease-in-out;
+  top: 0;
+  width: 1000px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
-  box-sizing: border-box;
   -webkit-transition: .25s ease-in-out;
   -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
-  margin: 0;
-  padding: 0;
   -webkit-text-size-adjust: none; }
 
 #drawer-toggle:checked ~ #drawer-toggle-label,
@@ -1025,10 +1019,10 @@ header {
   list-style-type: none; }
 
 #drawer ul a {
+  color: #ededed;
   display: block;
   padding: 10px;
-  color: #c7c7c7;
   text-decoration: none; }
 
 #drawer ul a:hover {
-  color: white; }
+  color: #ffff; }

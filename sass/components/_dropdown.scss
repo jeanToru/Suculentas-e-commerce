@@ -2,39 +2,46 @@
   margin: 0 auto;
   width: 1080px;
 }
+
 .content-dropdown h2{
   text-align: left;
 }
+
 details ul{
   margin: 0px;
   padding: 0px;
 }
+
 details ul li{
-  background-color: #292021;
-  border: 1px solid rgba($color: #fff, $alpha: 0.3);
-  font-size: 43px;
+  background-color: $dark-brown;
+  border: 1px solid rgba($color: $white, $alpha: 0.3);
   list-style: none;
-  padding: 10px 0px 10px 120px;
+  padding: 15px 0px 15px 120px;
   width: 333px;
 }
+
 details li a{
-  color: #fff;
+  color: $white;
 
   text-decoration: none;
 }
+
 details li a:hover{
-  color: #886750;
+  color: $light-brown-hover;
 }
+
 summary{
-  background-color: #292021;
+  background-color: $dark-brown;
   border: none;
-  color: #fff;
+  color: $white;
   cursor: pointer;
-  font-size: 43px;
-  padding: 10px 12px;
+  font-family: $bebas-neue;
+  font-size: 30px;
+  padding: 20px 12px;
   outline: 0;
   width: 431px;
 }
+
 summary:hover{
-  color: #886750;
+  color: $light-brown-hover;
 }
