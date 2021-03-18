@@ -9,7 +9,7 @@ $placeholder-search: #494b46;
 $beige: #c9c0bb;
 
 // Fonts
-$khula: 'Khula', sans-serif;
+$sans: 'Open Sans', sans-serif;
 $bebas-neue:  'Bebas Neue', cursive;
 
 //tipografias
@@ -20,16 +20,16 @@ h1,h2,h3,h4{
 p{
   font-size: 18px;
   color: $dark-brown;
-  font-family: $khula
+  font-family: $sans;
 }
-li lists{
+li{
   font-size: 16px;
   color: $dark-brown;
-  font-family: $khula
+  font-family: $sans;
 }
 a{
   color: $dark-brown;
-  font-family: $khula;
+  font-family: $sans;
   font-weight: bold;
 }
 
