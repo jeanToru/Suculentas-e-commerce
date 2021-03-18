@@ -1,13 +1,28 @@
 @charset "UTF-8";
 /*----Global----*/
+h1, h2, h3, h4 {
+  color: #292021;
+  font-family: "Bebas Neue", cursive; }
+
+p {
+  font-size: 18px;
+  color: #292021;
+  font-family: "Khula", sans-serif; }
+
+li lists {
+  font-size: 16px;
+  color: #292021;
+  font-family: "Khula", sans-serif; }
+
+a {
+  color: #292021;
+  font-family: "Khula", sans-serif;
+  font-weight: bold; }
+
 .clearfix::after {
   content: "";
   clear: both;
   display: table; }
-
-h2 {
-  font-size: 36px;
-  text-align: left; }
 
 /*----Components----*/
 #shoppingCart {
@@ -532,21 +547,6 @@ details li a.filtro--a {
   margin-left: 400px;
   padding: 25px 0;
   width: 500px; }
-
-.title {
-  font-size: 58px; }
-
-.title--principal {
-  font-size: 48px; }
-
-.title--curiosities {
-  font-size: 36px; }
-
-.title--sitemap {
-  font-size: 16px; }
-
-.parrafos {
-  font-size: 18px; }
 
 .content--buttons {
   width: 100px;
