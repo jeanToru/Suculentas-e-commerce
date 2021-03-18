@@ -4,9 +4,9 @@ const alertContainer = document.getElementById('alert__Container');
 open.addEventListener('click', () => {
   alertContainer.innerHTML = `
     <div class="alert">
-    <img src="img/check.png" alt="">
-    <h3>Datos enviados</h3>
-    <button class="details" id="close">ok</button>
+      <img src="../img/check.png" alt="">
+      <h3>Datos enviados</h3>
+      <button class=" button-principal details" id="close">ok</button>
     </div>`;
   alertContainer.classList.add('show');
   const close = document.getElementById('close');
