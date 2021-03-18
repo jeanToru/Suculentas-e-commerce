@@ -27,4 +27,4 @@ Funciona dándole click encima de "Familias" para abrirlo y para cerrarlo es igu
 Funciona dándole click en cada título en blanco
 
 ### El acordeón:
-Funciona dándole click encima de las letras blancas y solo se puede abrir uno a la vez.
+Funciona dándole click encima de las letras blancas y solo se puede abrir uno a la vez. Cabe destacar que el acordeón solo se muestra cuando se haga responsive a la parte de mobile.
