@@ -9,19 +9,35 @@ $placeholder-search: #494b46;
 $beige: #c9c0bb;
 
 // Fonts
-$khula: 'Khula', sans-serif;
+$sans: 'Open Sans', sans-serif;
 $bebas-neue:  'Bebas Neue', cursive;
+
+//tipografias
+h1,h2,h3,h4{
+  color: $dark-brown;
+  font-family: $bebas-neue;
+}
+p{
+  font-size: 18px;
+  color: $dark-brown;
+  font-family: $sans;
+}
+li{
+  font-size: 16px;
+  color: $dark-brown;
+  font-family: $sans;
+}
+a{
+  color: $dark-brown;
+  font-family: $sans;
+  font-weight: bold;
+}
 
 // configure
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
-}
-
-h2{
-  font-size: 36px;
-  text-align: left;
 }
 
 

@@ -1,5 +1,5 @@
 #contact{
-  background-color: #C9C0BB;
+  background-color: $beige;
   margin: 0 auto;
   text-align: center;
   width: 1138px;
@@ -12,8 +12,6 @@
   width: 1138px;
 }
 #contact--title{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 48px;
   letter-spacing: 3px;
   padding-top: 20px;
   text-align: center;
@@ -21,18 +19,14 @@
 
 }
 #contact--info h3{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 26px;
   letter-spacing: 3px;
   margin: 0;
   text-transform: uppercase;
 }
 #contact--info{
-  font-family: 'Khula', sans-serif;
   float: left;
   margin-right: 100px;
   margin-left: 130px;
-  font-size: 18px;
   padding-top: 30px;
   text-align: left;
   width: 360px;
@@ -61,7 +55,6 @@
 
 .form__content input{
   border: 1px solid #292021;
-  font-size: 18px;
   height: 35px;
   width: 400px;
 }
@@ -76,6 +69,6 @@
   padding: 15px 30px;
 }
 .form_button--margin{
-  margin-right: 120px;
+  margin-left: 450px;
   margin-bottom: 75px;
 }
