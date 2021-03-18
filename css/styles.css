@@ -16,7 +16,7 @@ h2 {
   width: 1080px; }
 
 .shoppingCart__content {
-  border-bottom: 1px solid #857876; }
+  border-bottom: 1px solid #c9c0bb; }
 
 .shoppingCart__content--img {
   float: left;
@@ -25,7 +25,6 @@ h2 {
 .shoppingCart__content--title {
   color: #292021;
   float: left;
-  font-size: 18px;
   margin-left: 75px;
   padding-top: 100px; }
 
@@ -47,7 +46,7 @@ h2 {
   background-color: #292021;
   border: 1px solid #292021;
   border-radius: 100%;
-  color: #ffffff;
+  color: #ffff;
   margin-top: 12px;
   padding: 5px 10px; }
 
@@ -106,13 +105,12 @@ details ul {
 details ul li {
   background-color: #292021;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  font-size: 43px;
   list-style: none;
   padding: 10px 0px 10px 120px;
   width: 333px; }
 
 details li a {
-  color: #fff;
+  color: #ffff;
   text-decoration: none; }
 
 details li a:hover {
@@ -121,9 +119,8 @@ details li a:hover {
 summary {
   background-color: #292021;
   border: none;
-  color: #fff;
+  color: #ffff;
   cursor: pointer;
-  font-size: 43px;
   padding: 10px 12px;
   outline: 0;
   width: 431px; }
@@ -421,7 +418,6 @@ img {
   .modal__content h2 {
     color: #292021;
     font-family: "Bebas Neue", cursive;
-    font-size: 2.5em;
     text-align: center; }
   .modal__content .close__modal img {
     margin: 10px 10px; }
@@ -440,7 +436,6 @@ img {
 
 .input1 {
   font-family: "Khula", sans-serif;
-  font-size: 1.25em;
   height: 40px;
   margin-bottom: 10px;
   padding-left: 50px;
@@ -534,19 +529,23 @@ details li a.filtro--a {
   width: 500px; }
 
 .title {
-  font-size: 58px; }
-
-.title--principal {
-  font-size: 48px; }
-
-.title--curiosities {
-  font-size: 36px; }
-
-.title--sitemap {
-  font-size: 16px; }
+  color: #292021;
+  font-family: "Bebas Neue", cursive; }
 
 .parrafos {
-  font-size: 18px; }
+  font-size: 18px;
+  color: #292021;
+  font-family: "Khula", sans-serif; }
+
+.lists {
+  font-size: 16px;
+  color: #292021;
+  font-family: "Khula", sans-serif; }
+
+.links {
+  color: #292021;
+  font-family: "Khula", sans-serif;
+  font-weight: bold; }
 
 .content--buttons {
   width: 100px;
