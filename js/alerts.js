@@ -5,7 +5,7 @@ open.addEventListener('click', () => {
   alertContainer.innerHTML = `
     <div class="alert">
       <img src="../img/check.png" alt="">
-      <h3>Datos enviados</h3>
+      <h2>Datos enviados</h2>
       <button class=" button-principal details" id="close">ok</button>
     </div>`;
   alertContainer.classList.add('show');
