@@ -44,7 +44,8 @@
   -ms-transform:translateY(100%);
   transform:translateY(100%);
   -webkit-transform:translateY(100%);
-}
+
+  }
 
 .hamburger.menu--active .hamburger--top{
   -ms-transform:translateY(200%) rotate(45deg) !important;
@@ -111,11 +112,9 @@ li .menu__line{
 li .menu__ayuda{
   border-bottom: none;
 }
-
 li .menu__register{
   border-top: 1px solid $white;
 }
-
 a.menu__register{
   padding-top: 30px;
 }

@@ -14,7 +14,8 @@ details ul{
 
 details ul li{
   background-color: $dark-brown;
-  border: 1px solid rgba($color: $white, $alpha: 0.3);
+  border: 1px solid rgba($color: #fff, $alpha: 0.3);
+  font-size: 16px;
   list-style: none;
   padding: 15px 0px 15px 120px;
   width: 333px;
@@ -37,7 +38,7 @@ summary{
   cursor: pointer;
   font-family: $bebas-neue;
   font-size: 30px;
-  padding: 20px 12px;
+  padding: 10px 12px;
   outline: 0;
   width: 431px;
 }

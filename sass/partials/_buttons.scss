@@ -19,7 +19,7 @@
 
 .button-principal{
   background-color: $dark-brown;
-  border: none;
+  border: solid $dark-brown;
   border-radius: 102px;
   color: $white;
   font-weight: bold;
@@ -28,7 +28,9 @@
 
   &:hover {
     background-color: $light-brown-hover;
-    color: $white;
+
+    border: solid $light-brown-hover;
+    color:  $white;
   }
 
 }
@@ -43,11 +45,10 @@
 
   &:hover {
     background-color: $light-brown-hover;
-    color: $white;
+    color:  $white;
   }
-
 }
-
 .button--margin{
-  margin-left: 60px;
+  margin-left: 70px;
+
 }

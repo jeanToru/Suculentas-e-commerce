@@ -27,23 +27,26 @@
 }
 
 .titleCard {
-  color: $dark-brown;;
+  color: $dark-brown;
+  font-size: 18px;
   margin-bottom: 10px;
   margin-top: 12px;
   text-align: center;
 }
 
 .price {
-  color: $dark-brown;;
+  color: $dark-brown;
+  font-size: 24px;
   margin: 0;
   text-align: center;
 }
 
 .details {
-  background-color: $dark-brown;;
+  background-color: $dark-brown;
   border: none;
   border-radius: 102px;
   color: $white;
+  font-size: 14px;
   font-weight: bold;
   left: 70px;
   padding: 10px 16px;
