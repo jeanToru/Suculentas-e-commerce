@@ -46,7 +46,7 @@
 }
 
 .form__content label {
-  color: #292021;
+  color: $dark-brown;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 5px;
@@ -54,15 +54,15 @@
 }
 
 .form__content input{
-  border: 1px solid #292021;
+  border: 1px solid $dark-brown;
   height: 35px;
   width: 400px;
 }
 .form__button{
-  background-color: #292021;
+  background-color: $dark-brown;
   border: none;
   border-radius: 50px;
-  color: #FFFFFF;
+  color: $white;
   margin-bottom: 60px;
   margin-right: 120px;
   margin-top: 20px;

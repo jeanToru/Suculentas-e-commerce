@@ -4,6 +4,7 @@
   width: 792px;
   padding-top: 100px;
 }
+
 .card {
   float: left;
   margin-bottom: 82px;
@@ -26,26 +27,23 @@
 }
 
 .titleCard {
-  color: #292021;
-  font-size: 18px;
+  color: $dark-brown;;
   margin-bottom: 10px;
   margin-top: 12px;
   text-align: center;
 }
 
 .price {
-  color: #292021;
-  font-size: 24px;
+  color: $dark-brown;;
   margin: 0;
   text-align: center;
 }
 
 .details {
-  background-color: #292021;
+  background-color: $dark-brown;;
   border: none;
   border-radius: 102px;
-  color: white;
-  font-size: 14px;
+  color: $white;
   font-weight: bold;
   left: 70px;
   padding: 10px 16px;
@@ -59,7 +57,7 @@
 
 .offer {
   background-color: #A31523;
-  color: white;
+  color: $white;
   left: 0px;
   padding: 10px 10px;
   position: absolute;
