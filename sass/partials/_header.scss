@@ -7,20 +7,24 @@
   width: 1280px;
 
 }
+
 .header {
   background-color: $white;
   height: 110px;
   margin: 0 auto;
   width: 1280px;
 }
+
 .header__logo{
   float: left;
   margin-top: 30px;
 }
+
 .header__menu{
   float: left;
   margin-top: 38px;
 }
+
 .menu__nav {
   li{
     float: left;
@@ -37,14 +41,17 @@
 
 .nav__list {
   padding: 7px 30px;
+
   a{
     color: $white;
     font-weight: bold;
     text-decoration: none;
   }
+
   &:hover{
     background-color: $light-brown-hover;
   }
+
 }
 
 .search__bar{
@@ -64,17 +71,20 @@
     height: 38px;
     width: 153px;
   }
+
 }
 
-.sign__in__cart{
+.sign__in__cart {
   margin-top: 38px;
   float: right;
 }
-.tangle-1{
+
+.tangle-1 {
   float: left;
   width: 850px;
 }
-.tangle-2{
+
+.tangle-2 {
   float: right;
   width: 400px;
 }
