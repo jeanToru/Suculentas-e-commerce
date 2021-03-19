@@ -11,21 +11,26 @@
   margin-bottom: 50px;
   margin-right: 37px;
 }
+
 .card__content--p p{
+
   color: $white;
   background-color: $dark-brown;
   padding: 10px;
   text-align: center;
 }
+
 .card__content--p:hover p{
   background-color: $light-brown-hover;
   color: $white;
 }
+
 .card__content--p p{
   font-weight: bold;
   margin: 0;
   text-transform: uppercase ;
 }
+
 #card__content--img1{
   background-image: url(../img/echeveria.png);
   background-size: cover;
