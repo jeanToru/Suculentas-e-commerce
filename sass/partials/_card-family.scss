@@ -12,70 +12,79 @@
   margin-right: 37px;
 }
 .card__content--p{
-  color: #ffffff;
-  background-color: #292021;
+  color: $white;
+  background-color: $dark-brown;
   padding: 10px;
-  font-family: 'Khula', sans-serif;
-  font-size: 36px;
   text-align: center;
 }
+
 .card__content--p:hover{
-  background-color: #886750;
-  color: #ffffff;
+  background-color: $light-brown-hover;
+  color: $white;
 }
+
 .card__content--p p{
   font-weight: bold;
   margin: 0;
   text-transform: uppercase ;
 }
+
 #card__content--img1{
   background-image: url(../img/echeveria.png);
   background-size: cover;
   background-color: #EDEDED;
   height: 236px;
 }
+
 #card__content--img2{
   background-image: url(../img/aonium.png);
   background-size: cover;
   background-color: #EDEDED;
   height: 236px;
 }
+
 #card__content--img3{
   background-image: url(../img/senecio.png);
   background-size: cover;
   background-color: #EDEDED;
   height: 236px;
 }
+
 #card__content--img4{
   background-image: url(../img/supervium.png);
   background-size: cover;
   background-color: #EDEDED;
   height: 236px;
 }
+
 #card__content--img5{
   background-image: url(../img/cactus.png);
   background-size: cover;
   background-color: #EDEDED;
   height: 236px;
 }
+
 #card__content--img6{
   background-image: url(../img/crassula.png);
   background-size: cover;
   background-color: #EDEDED;
   height: 236px;
 }
+
 #card__content--img7{
   background-image: url(../img/kalanchoe.png);
   background-size: cover;
   background-color: #EDEDED;
   height: 236px;
 }
+
 #card__content--img8{
   background-image: url(../img/haworthia.png);
   background-size: cover;
   background-color: #EDEDED;
   height: 236px;
 }
+
 #card__content--img9{
   background-image: url(../img/sedum.png);
   background-size: cover;
