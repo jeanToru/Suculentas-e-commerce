@@ -1,3 +1,9 @@
+.content-cards{
+  height: 1000px;
+  margin: 0 auto;
+  width: 792px;
+  padding-top: 100px;
+}
 .card {
   float: left;
   margin-bottom: 82px;
@@ -7,8 +13,8 @@
 .card2 {
   float: left;
   margin-bottom: 82px;
-  width: 248px;
   position: relative;
+  width: 248px;
 }
 
 .card + .card {
@@ -20,31 +26,31 @@
 }
 
 .titleCard {
-  color: #292021;
+  color: $dark-brown;
   font-size: 18px;
-  text-align: center;
-  margin-top: 12px;
   margin-bottom: 10px;
+  margin-top: 12px;
+  text-align: center;
 }
 
 .price {
-  color: #292021;
+  color: $dark-brown;
   font-size: 24px;
-  text-align: center;
   margin: 0;
+  text-align: center;
 }
 
 .details {
-  background-color: #292021;
+  background-color: $dark-brown;
   border: none;
   border-radius: 102px;
-  color: white;
+  color: $white;
   font-size: 14px;
   font-weight: bold;
+  left: 70px;
   padding: 10px 16px;
   position: relative;
   top: 10px;
-  left: 70px;
 }
 
 .stars {
@@ -53,7 +59,7 @@
 
 .offer {
   background-color: #A31523;
-  color: white;
+  color: $white;
   left: 0px;
   padding: 10px 10px;
   position: absolute;

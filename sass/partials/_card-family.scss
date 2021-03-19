@@ -1,70 +1,82 @@
-#contentFamily{
+#cards{
   margin: 0 auto;
   width: 900px;
 }
-.cardFamily{
+.card__content{
   float: right;
   height: 319px;
   width: 275px;
 }
-.cardFamily +.cardFamily{
+.card__content +.card__content{
   margin-bottom: 50px;
   margin-right: 37px;
 }
-.imgCardFamily{
-  background-color: #EDEDED;
-  height: 236px;
-}
-.frameCardFamily{
-  color: #ffffff;
-  background-color: #292021;
+.card__content--p p{
+  color: $white;
+  background-color: $dark-brown;
   padding: 10px;
-  font-family: 'Khula', sans-serif;
-  font-size: 36px;
   text-align: center;
 }
-.frameCardFamily:hover{
-  background-color: #886750;
-  color: #ffffff;
+.card__content--p:hover p{
+  background-color: $light-brown-hover;
+  color: $white;
 }
-.frameCardFamily p{
+.card__content--p p{
   font-weight: bold;
   margin: 0;
   text-transform: uppercase ;
 }
-#img-cardFamily-1{
+#card__content--img1{
   background-image: url(../img/echeveria.png);
   background-size: cover;
+  background-color: $light-gray;
+  height: 236px;
 }
-#img-cardFamily-2{
+#card__content--img2{
   background-image: url(../img/aonium.png);
   background-size: cover;
+  background-color: $light-gray;
+  height: 236px;
 }
-#img-cardFamily-3{
+#card__content--img3{
   background-image: url(../img/senecio.png);
   background-size: cover;
+  background-color: $light-gray;
+  height: 236px;
 }
-#img-cardFamily-4{
+#card__content--img4{
   background-image: url(../img/supervium.png);
   background-size: cover;
+  background-color: $light-gray;
+  height: 236px;
 }
-#img-cardFamily-5{
+#card__content--img5{
   background-image: url(../img/cactus.png);
   background-size: cover;
+  background-color: $light-gray;
+  height: 236px;
 }
-#img-cardFamily-6{
+#card__content--img6{
   background-image: url(../img/crassula.png);
   background-size: cover;
+  background-color: $light-gray;
+  height: 236px;
 }
-#img-cardFamily-7{
+#card__content--img7{
   background-image: url(../img/kalanchoe.png);
   background-size: cover;
+  background-color: $light-gray;
+  height: 236px;
 }
-#img-cardFamily-8{
+#card__content--img8{
   background-image: url(../img/haworthia.png);
   background-size: cover;
+  background-color: $light-gray;
+  height: 236px;
 }
-#img-cardFamily-9{
+#card__content--img9{
   background-image: url(../img/sedum.png);
   background-size: cover;
+  background-color: $light-gray;
+  height: 236px;
 }

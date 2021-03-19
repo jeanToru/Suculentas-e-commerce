@@ -1,74 +1,73 @@
 #contact{
-  background-color: #C9C0BB;
+  background-color: $beige;
   margin: 0 auto;
   text-align: center;
   width: 1138px;
 }
-#img-contact{
+#contact--img{
   background-image: url(../img/img-contacto.png);
   background-size: cover;
   display: block;
   height: 400px;
   width: 1138px;
 }
-#title-contact{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 48px;
+#contact--title{
   letter-spacing: 3px;
   padding-top: 20px;
+  text-align: center;
   text-transform: uppercase;
 
 }
-#info-Form h3{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 26px;
+#contact--info h3{
   letter-spacing: 3px;
   margin: 0;
   text-transform: uppercase;
 }
-#info-Form{
-  font-family: 'Khula', sans-serif;
+#contact--info{
   float: left;
   margin-right: 100px;
   margin-left: 130px;
-  font-size: 18px;
   padding-top: 30px;
   text-align: left;
   width: 360px;
 }
-#info-Form span{
+#contact--info span{
   font-weight: bold;
 }
+
+/*-----Form-----*/
 #form{
   padding-top: 30px;
 }
-.form-group{
+.form__content{
   display: flex;
   margin-bottom: 16px;
   flex-direction: column;
 }
 
-.form-group label {
-  color: #292021;
-  font-size: 18px;
+.form__content label {
+  color: $dark-brown;
   font-weight: bold;
   margin-bottom: 5px;
   text-align: left;
 }
 
-.form-group input{
-  border: 1px solid #292021;
-  font-size: 18px;
+.form__content input{
+  border: 1px solid $dark-brown;
   height: 35px;
   width: 400px;
 }
-.botonesForm{
-  background-color: #292021;
+.form__button{
+  background-color: $dark-brown;
   border: none;
   border-radius: 50px;
-  color: #FFFFFF;
+  color: $white;
   margin-bottom: 60px;
   margin-right: 120px;
-  margin-top: 30px;
-  padding: 10px 20px;
+  margin-top: 20px;
+  padding: 15px 30px;
+}
+.form_button--margin{
+  margin-right: 120px;
+  margin-bottom: 75px;
 }

@@ -1,17 +1,15 @@
 //footer
 .footer {
   background-color: $beige;
-  width: 1280px;
-  height: 148px ;
-  font-family: $khula;
-  font-size: 18px;
   font-weight: bold;
+  height: 148px ;
   margin: 0 auto;
+  width: 1280px;
 }
 .foo-menu {
+  float: left;
   margin-left: 165px;
   margin-top: 32px;
-  float: left;
 }
 .foo-nav-list {
   li{
