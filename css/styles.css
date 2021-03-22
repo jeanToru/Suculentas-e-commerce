@@ -582,8 +582,14 @@ details li a.filtro--a {
 
 #cards {
   margin: 0 auto;
+  padding-bottom: 100px;
   padding-top: 100px;
   width: 900px; }
+
+.card__row h2 {
+  font-size: 45px;
+  margin-bottom: 100px;
+  text-align: center; }
 
 .card__content {
   background-color: #ffff;
