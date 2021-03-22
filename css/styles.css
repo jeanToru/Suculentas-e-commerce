@@ -40,10 +40,7 @@ a {
   width: 1080px; }
 
 .shoppingCart__content {
-
-  border-bottom: 1px solid #886750; 
-}
-
+  border-bottom: 1px solid #886750; }
 
 .shoppingCart__content--img {
   float: left;
@@ -132,11 +129,9 @@ details ul {
 details ul li {
   background-color: #292021;
   border: 1px solid rgba(255, 255, 255, 0.3);
-
   font-size: 16px;
   list-style: none;
-  padding: 10px 0px 10px 120px;
-
+  padding: 15px 0px 15px 120px;
   width: 333px; }
 
 details li a {
@@ -206,7 +201,6 @@ summary:hover {
 
 .form__content label {
   color: #292021;
-
   font-weight: bold;
   margin-bottom: 5px;
   text-align: left; }
@@ -220,7 +214,6 @@ summary:hover {
   background-color: #292021;
   border: none;
   border-radius: 50px;
-
   color: #ffff;
   margin-bottom: 60px;
   margin-right: 120px;
@@ -266,9 +259,7 @@ summary:hover {
   width: 40px; }
 
 .slider--btn:hover {
-
   background-color: #ffff; }
-
 
 .slider--btn--left {
   left: 10px; }
@@ -279,7 +270,6 @@ summary:hover {
 .tabs {
   margin: 0 auto;
   padding-top: 150px;
-
   width: 1000px; }
 
 .tabs__info {
@@ -294,7 +284,6 @@ summary:hover {
 
 .tabs__list--menu {
   background-color: #292021;
-
   color: #ffff;
   float: left;
   font-weight: bold;
@@ -303,7 +292,6 @@ summary:hover {
 
 .tabs__content {
   background-color: #ffff;
-
   color: #292021;
   margin-bottom: 149px;
   padding: 20px; }
@@ -312,10 +300,8 @@ summary:hover {
   background-color: #886750;
   color: #ffff; }
 
-
 .js-contenido-oculto {
   display: none; }
-
 
 .tabs__content--info span {
   font-weight: bold; }
@@ -542,7 +528,6 @@ details li a.filtro--a {
 .filtro--Content select {
   background-color: #292021;
   color: #ffff;
-
   font-size: 16px;
   padding: 10px 20px 10px 0; }
 
@@ -570,10 +555,10 @@ details li a.filtro--a {
 
 .button-principal {
   background-color: #292021;
-
   border: solid #292021;
   border-radius: 102px;
-  color: #ffff;bold;
+  color: #ffff;
+  font-weight: bold;
   padding: 10px 20px;
   text-decoration: none; }
   .button-principal:hover {
@@ -871,6 +856,7 @@ li a.menu__family {
   background-color: #ffff;
   height: 110px;
   margin: 0 auto;
+  margin-bottom: 100px;
   width: 1280px;
   font-size: 18px; }
 
@@ -940,7 +926,6 @@ li a.menu__family {
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-
   user-select: none;
   left: 0px;
   height: 50px;
