@@ -1,7 +1,8 @@
 .curiosities{
   height: 400px;
-  margin: 0 auto;
-
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-top: 100px;
 }
 
 .curiosities--img{
@@ -15,9 +16,8 @@
 .curiosities__content{
   line-height: 35px;
   margin-left: 500px;
-  padding-top: 50px;
   position: relative;
-  width: 650px;
+  width: 600px;
 
   .curiosities--title{
     font-size: 45px;
@@ -29,6 +29,6 @@
     text-align: left;
   }
   a{
-    margin-left: 500px;
+    margin-left: 492px;
   }
 }

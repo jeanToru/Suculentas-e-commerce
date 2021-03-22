@@ -685,6 +685,31 @@ details li a.filtro--a {
   top: 0px;
   width: 24px; }
 
+.curiosities {
+  height: 400px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-top: 100px; }
+
+.curiosities--img {
+  position: absolute; }
+  .curiosities--img img {
+    margin: 10px; }
+
+.curiosities__content {
+  line-height: 35px;
+  margin-left: 500px;
+  position: relative;
+  width: 600px; }
+  .curiosities__content .curiosities--title {
+    font-size: 45px;
+    text-align: center; }
+  .curiosities__content p {
+    margin-bottom: 40px;
+    text-align: left; }
+  .curiosities__content a {
+    margin-left: 492px; }
+
 .footer {
   background-color: #c9c0bb;
   font-weight: bold;
