@@ -573,85 +573,48 @@ details li a.filtro--a {
 
 #cards {
   margin: 0 auto;
+  padding-top: 100px;
   width: 900px; }
 
 .card__content {
+  background-color: #ffff;
+  border-radius: 20px;
+  box-shadow: -2.23663px 5.96436px 52.1881px rgba(0, 0, 0, 0.15);
   float: right;
   height: 319px;
+  position: relative;
   width: 275px; }
 
 .card__content + .card__content {
   margin-bottom: 50px;
   margin-right: 37px; }
 
-.card__content--p p {
-  color: #ffff;
-  background-color: #292021;
-  padding: 10px;
-  text-align: center; }
-
-.card__content--p:hover p {
-  background-color: #886750;
-  color: #ffff; }
-
-.card__content--p p {
-  font-weight: bold;
-  margin: 0;
+.card__content--p {
+  font-family: "Bebas Neue", cursive;
+  font-size: 36px;
+  letter-spacing: 7px;
+  margin-bottom: 0;
+  padding-top: 160px;
+  text-align: center;
   text-transform: uppercase; }
 
-#card__content--img1 {
-  background-image: url(../img/echeveria.png);
-  background-size: cover;
-  background-color: #ededed;
-  height: 236px; }
+.card__content--a {
+  background-color: #292021;
+  border-radius: 100px;
+  color: #ffff;
+  float: right;
+  margin-top: 10px;
+  margin-right: 48px;
+  padding: 10px 20px;
+  text-decoration: none; }
 
-#card__content--img2 {
-  background-image: url(../img/aonium.png);
-  background-size: cover;
-  background-color: #ededed;
-  height: 236px; }
+.card__content--a:hover {
+  background-color: #886750; }
 
-#card__content--img3 {
-  background-image: url(../img/senecio.png);
-  background-size: cover;
-  background-color: #ededed;
-  height: 236px; }
-
-#card__content--img4 {
-  background-image: url(../img/supervium.png);
-  background-size: cover;
-  background-color: #ededed;
-  height: 236px; }
-
-#card__content--img5 {
-  background-image: url(../img/cactus.png);
-  background-size: cover;
-  background-color: #ededed;
-  height: 236px; }
-
-#card__content--img6 {
-  background-image: url(../img/crassula.png);
-  background-size: cover;
-  background-color: #ededed;
-  height: 236px; }
-
-#card__content--img7 {
-  background-image: url(../img/kalanchoe.png);
-  background-size: cover;
-  background-color: #ededed;
-  height: 236px; }
-
-#card__content--img8 {
-  background-image: url(../img/haworthia.png);
-  background-size: cover;
-  background-color: #ededed;
-  height: 236px; }
-
-#card__content--img9 {
-  background-image: url(../img/sedum.png);
-  background-size: cover;
-  background-color: #ededed;
-  height: 236px; }
+#card__content--img {
+  position: absolute;
+  top: -50px;
+  left: -50px; }
 
 .content-cards {
   height: 1000px;
