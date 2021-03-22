@@ -1,0 +1,34 @@
+.curiosities{
+  height: 400px;
+  margin: 0 auto;
+
+}
+
+.curiosities--img{
+  position: absolute;
+
+  img{
+    margin: 10px;
+  }
+}
+
+.curiosities__content{
+  line-height: 35px;
+  margin-left: 500px;
+  padding-top: 50px;
+  position: relative;
+  width: 650px;
+
+  .curiosities--title{
+    font-size: 45px;
+    text-align: center;
+  }
+
+  p{
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  a{
+    margin-left: 500px;
+  }
+}
