@@ -24,6 +24,15 @@ a {
   clear: both;
   display: table; }
 
+#wrapper--principal {
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 1280px; }
+
+#wrapper--second {
+  border: 1px solid blue;
+  width: 1280px; }
+
 /*----Components----*/
 #shoppingCart {
   margin: 0 auto;
@@ -464,7 +473,7 @@ img {
   pointer-events: none;
   transition: all 1s; }
 
-#sign__in__modal:target {
+#signincart__modal:target {
   display: block;
   pointer-events: auto; }
 
@@ -893,7 +902,7 @@ li a.menu__family {
     height: 38px;
     width: 153px; }
 
-.sign__in__cart {
+.signincart {
   margin-top: 38px;
   float: right; }
 
