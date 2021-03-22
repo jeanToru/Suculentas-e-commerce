@@ -5,20 +5,24 @@
   position: relative;
   width: 90%;
 }
+
 .slider{
   display: flex;
   height: 500px;
   width: 300%;
 }
+
 .slider--section{
   width: 100%;
 }
+
 .slider--img{
   display: block;
   height: 100%;
   object-fit: cover;
   width: 100%;
 }
+
 .slider--btn{
   background: rgba(255, 255, 255, 0.7);
   border-radius: 50%;
@@ -32,12 +36,15 @@
   position: absolute;
   width: 40px;
 }
+
 .slider--btn:hover{
 background-color: $white;
 }
+
 .slider--btn--left{
   left: 10px;
 }
+
 .slider--btn--right{
   right: 10px;
 }

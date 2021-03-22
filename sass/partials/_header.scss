@@ -7,21 +7,26 @@
   width: 1280px;
 
 }
+
 .header {
   background-color: $white;
   height: 110px;
   margin: 0 auto;
   width: 1280px;
+
   font-size: 18px;
 }
+
 .header__logo{
   float: left;
   margin-top: 30px;
 }
+
 .header__menu{
   float: left;
   margin-top: 38px;
 }
+
 .menu__nav {
   li{
     float: left;
@@ -38,15 +43,18 @@
 
 .nav__list {
   padding: 7px 30px;
+
   a{
     color: $white;
     font-weight: bold;
     text-decoration: none;
+
     font-size: 14px;
   }
   &:hover{
     background-color: $light-brown-hover;
   }
+
 }
 
 .search__bar{
@@ -66,6 +74,7 @@
     height: 38px;
     width: 153px;
   }
+
 }
 
 .signincart{
