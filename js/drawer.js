@@ -1,5 +1,5 @@
-const carrito = document.querySelectorAll('a')[9];
-const cierre = document.querySelectorAll('a')[3];
+const carrito = document.getElementById('drawer--open');
+const cierre = document.getElementById('drawer--close');
 
 function openNave() {
   document.getElementById('drawer--js').classList.remove('drawer--close');
@@ -15,7 +15,6 @@ carrito.addEventListener('click', (e) => {
   e.preventDefault();
   openNave();
 });
-console.log(cierre);
 
 cierre.addEventListener('click', (e) => {
   e.preventDefault();
