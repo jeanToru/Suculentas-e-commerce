@@ -114,8 +114,14 @@ a {
   left: -37px;
   top: -418px; }
 
+.content--drop {
+  position: relative; }
+
 .content-dropdown {
   margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 1080px; }
 
 .content-dropdown h2 {
@@ -130,8 +136,8 @@ details ul li {
   border: 1px solid rgba(255, 255, 255, 0.3);
   font-size: 16px;
   list-style: none;
-  padding: 15px 0px 15px 120px;
-  width: 333px; }
+  padding: 15px 0px 15px 50px;
+  width: 150px; }
 
 details li a {
   color: #ffff;
@@ -149,7 +155,7 @@ summary {
   font-size: 30px;
   padding: 10px 12px;
   outline: 0;
-  width: 431px; }
+  width: 178px; }
 
 summary:hover {
   color: #886750; }

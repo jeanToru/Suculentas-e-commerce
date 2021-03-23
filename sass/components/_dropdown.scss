@@ -1,5 +1,11 @@
+.content--drop{
+  position: relative;
+}
 .content-dropdown{
   margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 1080px;
 }
 
@@ -17,8 +23,8 @@ details ul li{
   border: 1px solid rgba($color: #fff, $alpha: 0.3);
   font-size: 16px;
   list-style: none;
-  padding: 15px 0px 15px 120px;
-  width: 333px;
+  padding: 15px 0px 15px 50px;
+  width: 150px;
 }
 
 details li a{
@@ -40,7 +46,7 @@ summary{
   font-size: 30px;
   padding: 10px 12px;
   outline: 0;
-  width: 431px;
+  width: 178px;
 }
 
 summary:hover{
