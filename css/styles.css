@@ -217,7 +217,7 @@ summary:hover {
   padding: 15px 30px; }
 
 .form_button--margin {
-  margin-left: 450px;
+  margin-right: 150px;
   margin-bottom: 75px; }
 
 .container-slider {
@@ -907,15 +907,11 @@ li a.menu__family {
   width: 100%;
   padding-bottom: 100px; }
 
-.offers {
-  width: 100%;
-  padding-bottom: 100px; }
 
 .offers {
   width: 100%;
   padding-bottom: 100px; }
 
-/*
 @media(min-width: 500px){
 .contentOffers {
   margin: 0 auto;
