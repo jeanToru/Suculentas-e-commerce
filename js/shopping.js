@@ -7,7 +7,7 @@ function contendor(cardinfo) {
   const shoppingCartcontentimg = document.createElement('div');
   shoppingCartcontentimg.setAttribute('class', 'shoppingCart__content--img');
   const img = document.createElement('img');
-  img.setAttribute('src', `../img/${cardinfo .id}.png`);
+  img.setAttribute('src', `img/${cardinfo .id}.png`);
   img.setAttribute('alt', `${cardinfo.name}`);
   const shoppingCartcontenttitle = document.createElement('div');
   shoppingCartcontenttitle.setAttribute('class', 'shoppingCart__content--title');
