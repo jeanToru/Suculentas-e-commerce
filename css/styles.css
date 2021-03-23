@@ -82,9 +82,10 @@ a {
   width: 1028px; }
 
 .container-carrusel {
-  margin: auto;
+  margin: 0 auto;
   max-width: 1100px;
   overflow: hidden;
+  padding-top: 100px;
   position: relative;
   width: 90%; }
 
@@ -266,9 +267,9 @@ summary:hover {
   right: 10px; }
 
 .tabs {
+  height: 479px;
   margin: 0 auto;
-  padding-top: 150px;
-  width: 1000px; }
+  width: 867px; }
 
 .tabs__info {
   float: left;
