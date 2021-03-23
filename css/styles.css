@@ -580,7 +580,7 @@ details li a.filtro--a {
     color: #ffff; }
 
 .button--margin {
-  margin-left: 70px; }
+  margin-left: 60px; }
 
 #cards {
   margin: 0 auto;
@@ -653,6 +653,9 @@ details li a.filtro--a {
   margin-bottom: 82px;
   position: relative;
   width: 248px; }
+
+.card2 a {
+  margin-top: 55px; }
 
 .card + .card {
   margin-left: 24px; }
