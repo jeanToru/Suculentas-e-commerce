@@ -12,9 +12,74 @@
   text-align: center;
 }
 
+.section1{
+  height: 540px;
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 1080px;
+}
+
 .text {
+  float: left;
+  margin: 0;
+  padding-top: 100px;
+  padding-right: 92px;
   width: 600px;
   h2 {
     font-size: 30px;
   }
+}
+
+.image--curiosities1{
+  background-image: url(../../img/curiosidades-1.png);
+  background-size: cover;
+  height: 541px;
+  float: left;
+  margin: 0;
+  width: 386px;
+}
+
+.section2 {
+  height: 366px;
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 1080px;
+}
+
+.text2 {
+  float: right;
+  margin: 0;
+  padding-top: 50px;
+  width: 610px;
+}
+
+.image--curiosities2 {
+  background-image: url(../../img/curiosidades-2.png);
+  background-size: cover;
+  height: 366px;
+  float: left;
+  width: 416px;
+}
+
+
+.section3{
+  height: 368px;
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 1080px;
+}
+
+.text3 {
+  margin: 0;
+  padding-top: 50px;
+  width: 611px;
+}
+
+.image--curiosities3{
+  background-image: url(../../img/curiosidades-3.png);
+  background-size: cover;
+  height: 368px;
+  float: right;
+  margin: 0;
+  width: 411px;
 }
