@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Khula:wght@300&display=swap" rel="stylesheet">
+    <title>Suculenta's Garden</title>
+  </head>
+  <body>
+    <div id="wrapper--principal">
+      <div id="wrapper-second">
+        <!--------------Carrito de compras-------------->
+        <div class="drawer--content">
+          <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
+          <label for="drawer-toggle" id="drawer-toggle-label"></label>
+          <nav id="drawer">
+            <div id="shoppingCart"></div>
+          </nav>
+        </div>
+        <!---------header--------->
+        <div class="header clearfix">
+          <div class="tangle-1 clearfix">
+
+            <div class="header__logo">
+              <img src="img/logo.png" alt="Logo de Suculenta's Garden">
+            </div>
+
+            <div class="header__menu">
+              <ul class="menu__nav clearfix">
+                <li class="nav__list button-principal"><a href="index.html">Inicio</a></li>
+                <li class="nav__list button-principal"><a href="productos.html">Producto</a></li>
+                <li class="nav__list button-principal"><a href="contacto.html">Contacto</a></li>
+                <li class="nav__list button-principal"><a href="#">Ayuda</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tangle-2 clearfix">
+            <div class="search__bar">
+              <input type="text" placeholder="Buscar">
+              <img src="img/buscar.png">
+            </div>
+
+            <div class="signincart">
+              <a href="#signincart__modal"> <img src="img/Registrarse.png"></a>
+              <a href="#"><img class="cart" src="img/Carrito.png"></a>
+            </div>
+          </div>
+        </div>
+
+        <!--------------Dropdown-------------->
+        <div class="content-dropdown">
+          <h2>Dropdown</h2>
+          <details>
+            <summary>
+              FAMILIAS
+            </summary>
+            <ul>
+              <li><a href="#">ECHEVERIA</a></li>
+              <li><a href="#">AONIUM</a></li>
+              <li><a href="#">SENECIO</a></li>
+              <li><a href="#">SUPERVIUM</a></li>
+              <li><a href="#">CACTUS</a></li>
+              <li><a href="#">CRASSULA</a></li>
+              <li><a href="#">KALANCHOE</a></li>
+              <li><a href="#">HAWORTHIA</a></li>
+              <li><a href="#">SEDUM</a></li>
+          </ul>
+          </details>
+        </div>
+
+        <!--------------Card-------------->
+        <div class="content-cards">
+          <h1>Tipos de Echeverias</h1>
+          <div class="card">
+            <img src="img/1.png" alt="Suculenta Echeveria">
+            <h3 class="titleCard">Echeveria Black Knight</h3>
+            <p class="price">$ 6.00</p>
+            <img src="img/estrellas.png" alt="Calificación" class="stars">
+            <button class="button-principal button--margin">Ver Detalles</button>
+          </div>
+          <div class="card">
+            <img src="img/2.png" alt="Suculenta Echeveria">
+            <h3 class="titleCard">Echeveria Black Knight</h3>
+            <p class="price">$ 6.00</p>
+            <img src="img/estrellas.png" alt="Calificación" class="stars">
+            <button class="button-principal button--margin">Ver Detalles</button>
+          </div>
+          <div class="card">
+            <img src="img/3.png" alt="Suculenta Echeveria">
+            <h3 class="titleCard">Echeveria Black Knight</h3>
+            <p class="price">$ 6.00</p>
+            <img src="img/estrellas.png" alt="Calificación" class="stars">
+            <button class="button-principal button--margin">Ver Detalles</button>
+          </div>
+          <div class="card2">
+            <img src="img/4.png" alt="Suculenta Echeveria">
+            <h3 class="titleCard">Echeveria Black Knight</h3>
+            <p class="price">$ 6.00</p>
+            <img src="img/estrellas.png" alt="Calificación" class="stars">
+            <button class="button-principal button--margin">Ver Detalles</button>
+          </div>
+          <div class="card2">
+            <img src="img/5.png" alt="Suculenta Echeveria">
+            <h3 class="titleCard">Echeveria Black Knight</h3>
+            <p class="price">$ 6.00</p>
+            <img src="img/estrellas.png" alt="Calificación" class="stars">
+            <button class="button-principal button--margin">Ver Detalles</button>
+          </div>
+          <div class="card2">
+            <img src="img/6.png" alt="Suculenta Echeveria">
+            <h3 class="titleCard">Echeveria Black Knight</h3>
+            <p class="price">$ 6.00</p>
+            <img src="img/estrellas.png" alt="Calificación" class="stars">
+            <button class="button-principal button--margin">Ver Detalles</button>
+          </div>
+        </div>
+
+        <!--------------Modal-------------->
+        <div id="signincart__modal" class="modal">
+          <div class="modal__content">
+            <a class= "close__modal" href="#"><img src="img/boton-x.png"></a>
+            <img class="img__sign__up" src="img/registro.png">
+            <h2>Registrarse</h2>
+            <div class="google__facebook__icons">
+              <a href="#"><img src="img/google.png" alt="Registrate con tu cuenta de google"></a>
+              <a href="#"><img src="img/face-register.png" alt="Registrate con tu cuenta de facebook"></a>
+            </div>
+            <div class="sign__in__form">
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/persona.png" id="user-icon-form">
+                </div>
+                  <input class="input1" type="text" placeholder="Nombre Completo" required ="required"/>
+              </div>
+
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/correo.png" id="mail-icon-form">
+                </div>
+                  <input class="input1" type="text" placeholder="E-mail" required ="required"/>
+              </div>
+
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/contraseña.png" id="lock-icon-form">
+                </div>
+                <input class="input1" type="text" placeholder="Contraseña" required ="required"/>
+              </div>
+              <button type="submit" class="button-principal box_button--margin">Registrarse</button>
+            </div>
+          </div>
+        </div>
+
+        <!---------Footer--------->
+        <div class="footer">
+          <div class="foo-menu clearfix">
+            <ul class="foo-nav-list">
+              <li class="nav-foo"><a href="#">Inicio</a></li>
+              <li class="nav-foo"><a href="#">Producto</a></li>
+              <li class="nav-foo"><a href="#">Contacto</a></li>
+              <li class="nav-foo"><a href="#">Ayuda</a></li>
+            </ul>
+
+            <p class="copyright">© 2020 - Todos los derechos reservados</p>
+          </div>
+          <div class="follow-us">
+            <p>Síguenos aquí</p>
+            <a class="ig" href="www.instagram.com"><img src="img/instagram.png" alt="Cuenta de Instagram de Suculenta's Garden"></a>
+            <a class="fb" href="www.facebook.com"><img src="img/facebook.png" alt="Cuenta de Facebook de Suculenta's Garden"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/slider.js"></script>
+    <script src="js/shopping.js"></script>
+  </body>
+</html>

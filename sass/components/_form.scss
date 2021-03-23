@@ -1,6 +1,7 @@
 #contact{
   background-color: $beige;
   margin: 0 auto;
+  margin-bottom: 100px;
   text-align: center;
   width: 1138px;
 }
@@ -39,11 +40,6 @@
   font-weight: bold;
 }
 
-/*-----Form-----*/
-#form{
-  padding-top: 30px;
-}
-
 .form__content{
   display: flex;
   margin-bottom: 16px;
@@ -75,6 +71,6 @@
 }
 
 .form_button--margin{
-  margin-right: 120px;
+  margin-right: 150px;
   margin-bottom: 75px;
 }

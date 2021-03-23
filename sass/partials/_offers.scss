@@ -18,17 +18,22 @@
   h1 {
     color: $white;
     letter-spacing: 2px;
+    margin-bottom: 62px;
     margin-top: 110px;
     margin-left: -110px;
     text-align: center;
   }
 
-  .button-secondary {
+  a{
     margin-left: 32px;
-    margin-top: 40px;
+    text-decoration: none;
   }
 }
 
+.offers {
+  width: 100%;
+  padding-bottom: 100px;
+}
 
 /*
 @media(min-width: 500px){
