@@ -19,6 +19,44 @@
           <a id="drawer--close" class="closebtn">&times;</a>
           <div id="shoppingCart"></div>
         </div>
+
+        <!--------------Menú hamburguesa-------------->
+        <div class="header--movil">
+          <div class="header__logo">
+            <img src="img/logo-movil.png" alt="Logo de Suculenta's Garden">
+          </div>
+
+          <div class="signincart">
+            <a id="drawer--movil"><img class="cart" src="img/carrito-movil.png"></a>
+          </div>
+
+          <div class="menu">
+            <ul>
+              <li><a class="menu__line">Inicio</a></li>
+              <li><a class="menu__line">Producto</a></li>
+              <li><a class="menu__line menu__title--family">Familia Suculentas</a></li>
+              <li><a class="menu__family">Echeveria</a></li>
+              <li><a class="menu__family">Aonium</a></li>
+              <li><a class="menu__family">Senecio</a></li>
+              <li><a class="menu__family">Supervium</a></li>
+              <li><a class="menu__family">Cactus</a></li>
+              <li><a class="menu__family">Crassula</a></li>
+              <li><a class="menu__family">Kalanchoe</a></li>
+              <li><a class="menu__family">Haworthia</a></li>
+              <li><a class="menu__family">Sedum</a></li>
+              <li><a class="menu__line menu__register">Registrarse</a></li>
+              <li><a class="menu__line">Contacto</a></li>
+              <li><a class="menu__line menu__ayuda">Ayuda</a></li>
+            </ul>
+          </div>
+
+          <div class="hamburger">
+            <div class="hamburger--layer hamburger--top"></div>
+            <div class="hamburger--layer hamburger--mid"></div>
+            <div class="hamburger--layer hamburger--bottom"></div>
+          </div>
+        </div>
+
         <!---------header--------->
         <div class="header clearfix">
           <div class="tangle-1 clearfix">
@@ -44,10 +82,13 @@
 
             <div class="signincart">
               <a href="#signincart__modal"> <img src="img/Registrarse.png"></a>
-              <a id="drawer--open"><img class="cart" src="img/Carrito.png"></a>
+              <a id="drawer--view"><img class="cart" src="img/Carrito.png"></a>
             </div>
           </div>
         </div>
+
+        <!---------Imagen Movil--------->
+        <div class="content--img"></div>
 
         <!---------slider--------->
         <div class="container-slider">
@@ -91,8 +132,8 @@
 
         <!---------Card de Familias--------->
         <div id="cards" class="clearfix">
+          <h2>Familia de suculentas</h2>
           <div class="card__row">
-            <h2>Familia de suculentas</h2>
             <div class="card__content">
               <img id="card__content--img" src="img/echeveria.png" alt="Echeveria">
               <p class="card__content--p">Echeveria</p>
@@ -132,59 +173,23 @@
             </div>
           </div>
 
-          <div class="card__row">
-            <div class="card__content">
+          <div class="card__row card__row-3">
+            <div class="card__content card__content-3 card--kalanchoe">
               <img id="card__content--img" src="img/kalanchoe.png" alt="Echeveria">
               <p class="card__content--p">Kalanchoe</p>
               <a href="tipos.html" class="card__content--a">Saber más</a>
             </div>
 
-            <div class="card__content">
+            <div class="card__content card__content-3">
               <img id="card__content--img" src="img/haworthia.png" alt="Echeveria">
               <p class="card__content--p">Haworthia</p>
               <a href="tipos.html" class="card__content--a">Saber más</a>
             </div>
 
-            <div class="card__content">
+            <div class="card__content card__content-3">
               <img id="card__content--img" src="img/sedum.png" alt="Echeveria">
               <p class="card__content--p">Sedum</p>
               <a href="tipos.html" class="card__content--a">Saber más</a>
-            </div>
-          </div>
-        </div>
-
-        <!--------------Modal-------------->
-        <div id="signincart__modal" class="modal">
-          <div class="modal__content">
-            <a class= "close__modal" href="#"><img src="img/boton-x.png"></a>
-            <img class="img__sign__up" src="img/registro.png">
-            <h2>Registrarse</h2>
-            <div class="google__facebook__icons">
-              <a href="#"><img src="img/google.png" alt="Registrate con tu cuenta de google"></a>
-              <a href="#"><img src="img/face-register.png" alt="Registrate con tu cuenta de facebook"></a>
-            </div>
-            <div class="sign__in__form">
-              <div class="box">
-                <div class="icon__form">
-                  <img src="img/persona.png" id="user-icon-form">
-                </div>
-                  <input class="input1" type="text" placeholder="Nombre Completo" required ="required"/>
-              </div>
-
-              <div class="box">
-                <div class="icon__form">
-                  <img src="img/correo.png" id="mail-icon-form">
-                </div>
-                  <input class="input1" type="text" placeholder="E-mail" required ="required"/>
-              </div>
-
-              <div class="box">
-                <div class="icon__form">
-                  <img src="img/contraseña.png" id="lock-icon-form">
-                </div>
-                <input class="input1" type="text" placeholder="Contraseña" required ="required"/>
-              </div>
-              <button type="submit" class="button-principal box_button--margin">Registrarse</button>
             </div>
           </div>
         </div>
@@ -248,5 +253,6 @@
     <script src="js/slider.js"></script>
     <script src="js/shopping.js"></script>
     <script src="js/drawer.js"></script>
+    <script src="js/menu--hamburguer.js"></script>
   </body>
 </html>

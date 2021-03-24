@@ -48,3 +48,20 @@ background-color: $white;
 .slider--btn--right{
   right: 10px;
 }
+.content--img{
+  display: none;
+}
+
+@media(max-width: 500px){
+  .container-slider{
+    display: none;
+  }
+  .content--img{
+    background-image: url(../img/img-movil.png);
+    background-size: cover;
+    display: block;
+    height: 314px;
+    margin: 0 auto;
+    width: 460px;
+  }
+}
