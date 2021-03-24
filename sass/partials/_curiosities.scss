@@ -32,3 +32,39 @@
     margin-left: 492px;
   }
 }
+
+@media(max-width: 500px){
+  .curiosities{
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding-top: 100px;
+  }
+  .curiosities--img{
+    display: none;
+    position: none;
+
+    img{
+      margin: 10px;
+    }
+  }
+  .curiosities__content{
+    line-height: 35px;
+    margin-left: 0px;
+    position: relative;
+    width: 450px;
+
+    .curiosities--title{
+      font-size: 45px;
+      text-align: center;
+    }
+
+    p{
+      margin-bottom: 40px;
+      text-align: left;
+    }
+    a{
+      margin-left: 170px;
+    }
+  }
+}
