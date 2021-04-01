@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*----Global----*/
 h1, h2, h3, h4 {
   color: #292021;
@@ -398,53 +397,60 @@ img {
   overflow: hidden;
   padding: 0px; }
 
-#accordion {
+.main-container {
   display: none; }
 
 @media (max-width: 525px) {
-  #accordion {
-    display: block;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    width: 500px; }
-  #accordion .accordion__content--info {
-    display: none; }
-  #accordion .active .accordion__content--info {
+  .main-container {
     display: block; }
-  .accordion__content {
-    width: 100%; }
-  .accordion__content--title {
-    cursor: pointer;
-    background-color: #292021;
-    color: #ffff;
+  .btn-item {
+    background: #292021;
+    color: white;
     display: block;
-    font-size: 20px;
-    padding: 15px 15px;
-    padding-left: 40px;
-    text-align: left; }
-  .accordion__content--title::after {
-    content: "❯";
-    width: 16px;
-    height: 16px;
-    transition: all 0.35s;
+    font-size: 24px;
+    padding: 10px; }
+  .btn-item.active {
+    background: #886750;
+    font-size: 24px; }
+  .btn-item:after {
+    content: "\002b";
     float: right; }
-  .accordion__content--title:hover {
-    background-color: #886750;
-    color: #ffff; }
-  .accordion__info {
-    padding-left: 10px;
-    padding-right: 10px; }
-  .accordion__info span {
+  .btn-item.active:after {
+    content: "\02212"; }
+  .item-content {
+    background: white;
+    color: #292021;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden; }
+  .item-content h2 {
+    font-size: 36px; }
+  .item-content ul {
+    padding-bottom: 15px;
+    padding-top: 15px; }
+  .active + .item-content {
+    max-height: 1000px;
+    padding: 8px;
+    opacity: 1; }
+  .item-content span {
     font-weight: bold; }
   .gallery {
     float: left;
-    margin-left: 60px;
     margin-bottom: 50px;
+    margin-left: 100px;
     width: 390px; }
   .accordion__info--addCard {
-    margin-left: 100px;
+    margin-left: 150px;
     text-align: center;
-    width: 296px; } }
+    width: 296px; }
+  * {
+    margin: 0; }
+  body {
+    font-family: sans-serif; }
+  .main-container {
+    margin: 0 auto;
+    padding: 8px;
+    width: 600px; } }
 
 .modal__content {
   background-color: #c9c0bb;

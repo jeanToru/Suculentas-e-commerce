@@ -1,60 +1,73 @@
-#accordion{
+.main-container{
   display: none;
 }
 @media(max-width: 525px){
-  #accordion{
+  .main-container{
     display: block;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    width: 500px;
   }
-  #accordion .accordion__content--info{
-    display : none;
-  }
-
-  #accordion .active .accordion__content--info{
-    display : block;
-  }
-  .accordion__content{
-    width: 100%;
-  }
-  .accordion__content--title{
-    cursor: pointer;
-    background-color:$dark-brown;
-    color: $white;
+  .btn-item{
+    background:#292021;
+    color: white;
     display: block;
-    font-size: 20px;
-    padding: 15px 15px;
-    padding-left: 40px;
-    text-align: left;
+    font-size: 24px;
+    padding: 10px;
   }
-  .accordion__content--title::after{
-    content: "❯";
-    width: 16px;
-    height: 16px;
-    transition: all 0.35s;
+  .btn-item.active{
+    background: #886750;
+    font-size: 24px;
+  }
+  .btn-item:after{
+    content: "\002b";
     float: right;
   }
-  .accordion__content--title:hover{
-    background-color: $light-brown-hover;
-    color: $white;
+  .btn-item.active:after{
+    content: "\02212";
   }
-  .accordion__info{
-    padding-left: 10px;
-    padding-right: 10px;
+
+  .item-content{
+    background:white;
+    color: #292021;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
   }
-  .accordion__info span{
+  .item-content h2{
+    font-size: 36px;
+  }
+  .item-content ul{
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .active + .item-content{
+    max-height: 1000px;
+    padding: 8px;
+    opacity: 1;
+  }
+
+  .item-content span{
     font-weight: bold;
   }
+
   .gallery {
     float: left;
-    margin-left: 60px;
     margin-bottom: 50px;
+    margin-left: 100px;
     width: 390px;
   }
   .accordion__info--addCard{
-    margin-left: 100px;
+    margin-left: 150px;
     text-align: center;
     width: 296px;
+  }
+  *{
+    margin: 0;
+  }
+  body{
+    font-family: sans-serif;
+  }
+  .main-container{
+    margin:0 auto;
+    padding:8px;
+    width: 600px;
   }
 }
