@@ -1,5 +1,4 @@
 .content-cards{
-  height: 1000px;
   margin: 0 auto;
   width: 792px;
   padding-top: 100px;
@@ -82,4 +81,49 @@
 }
 .content--text h1{
   text-align: center;
+}
+.content--text-movil{
+  display: none;
+}
+
+@media(max-width: 500px){
+  .content--text{
+    display: none;
+  }
+  .content--text-movil{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+  }
+  .content--text-movil h2{
+    text-align: center;
+    padding-bottom: 22px;
+    padding-top: 50px;
+  }
+  .content-cards{
+    width: 400px;
+  }
+  .card {
+    width: 175px;
+  }
+  .card2{
+    width: 175px;
+  }
+  .stars {
+    margin-left: 0px;
+  }
+  .card + .card {
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+  .card2 + .card2 {
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+  .card img{
+    width: 175px;
+  }
+  .card2 img{
+    width: 175px;
+  }
 }
