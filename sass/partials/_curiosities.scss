@@ -1,70 +1,121 @@
-.curiosities{
-  height: 400px;
-  margin-left: 80px;
-  margin-right: 80px;
+// Index Curiosities
+
+.site-map{
+  display: block;
+  .site-map--inicio{
+    text-decoration: none;
+  }
+}
+
+.curiosities--h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.section1{
+  height: 540px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding-top: 50px;
+  width: 1080px;
+}
+
+.text {
+  float: left;
+  margin: 0;
   padding-top: 100px;
-}
-
-.curiosities--img{
-  position: absolute;
-
-  img{
-    margin: 10px;
-  }
-}
-
-.curiosities__content{
-  line-height: 35px;
-  margin-left: 500px;
-  position: relative;
+  padding-right: 92px;
   width: 600px;
-
-  .curiosities--title{
-    font-size: 45px;
-    text-align: center;
-  }
-
-  p{
-    margin-bottom: 40px;
-    text-align: left;
-  }
-  a{
-    margin-left: 492px;
+  h2 {
+    font-size: 30px;
   }
 }
+
+.image--curiosities1{
+  background-image: url(../img/curiosidades-1.png);
+  background-size: cover;
+  height: 541px;
+  float: left;
+  margin: 0;
+  width: 386px;
+}
+
+.section2 {
+  height: 366px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding-top: 50px;
+  width: 1080px;
+}
+
+.text2 {
+  float: right;
+  margin: 0;
+  padding-top: 50px;
+  width: 610px;
+}
+
+.image--curiosities2 {
+  background-image: url(../img/curiosidades-2.png);
+  background-size: cover;
+  height: 366px;
+  float: left;
+  width: 416px;
+}
+
+
+.section3{
+  height: 368px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding-top: 60px;
+  width: 1080px;
+}
+
+.text3 {
+  margin: 0;
+  padding-top: 50px;
+  width: 600px;
+  float: left;
+}
+
+.image--curiosities3{
+  background-image: url(../img/curiosidades-3.png);
+  background-size: cover;
+  height: 368px;
+  float: right;
+  margin: 0;
+  width: 411px;
+}
+
 
 @media(max-width: 500px){
-  .curiosities{
-    height: 400px;
-    margin-left: 20px;
-    margin-right: 0px;
-    padding-top: 100px;
-  }
-  .curiosities--img{
+  .header{
     display: none;
-    position: none;
-
-    img{
-      margin: 10px;
-    }
   }
-  .curiosities__content{
-    line-height: 35px;
-    margin-left: 0px;
-    position: relative;
+  .header--movil{
+    display: block;
+    margin: 0 auto;
+    height: 80px;
     width: 450px;
-
-    .curiosities--title{
-      font-size: 45px;
-      text-align: center;
-    }
-
-    p{
-      margin-bottom: 40px;
-      text-align: left;
-    }
-    a{
-      margin-left: 170px;
-    }
+  }
+  .header__logo{
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .signincart{
+    margin-top: 20px;
+    padding-right: 70px;
+  }
+  .site-map a{
+    display: none;
+  }
+  .curiosities--h1{
+    display: none;
+  }
+  .text {
+    float: none;
+    padding-top: 0;
+    width: 400px;
   }
 }
