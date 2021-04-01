@@ -51,3 +51,14 @@
 .button--margin{
   margin-left: 60px;
 }
+
+@media(max-width: 500px){
+  .button-principal{
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  .button--margin{
+    margin-left: 25px;
+  }
+
+}

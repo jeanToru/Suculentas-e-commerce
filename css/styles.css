@@ -170,6 +170,10 @@ summary {
 summary:hover {
   color: #886750; }
 
+@media (max-width: 500px) {
+  .content--drop {
+    display: none; } }
+
 #contact {
   background-color: #c9c0bb;
   margin: 0 auto;
@@ -613,6 +617,13 @@ details li a.filtro--a {
 .button--margin {
   margin-left: 60px; }
 
+@media (max-width: 500px) {
+  .button-principal {
+    font-size: 16px;
+    padding: 10px 15px; }
+  .button--margin {
+    margin-left: 25px; } }
+
 #cards {
   margin: 0 auto;
   padding-bottom: 100px;
@@ -714,7 +725,6 @@ details li a.filtro--a {
     width: 145px; } }
 
 .content-cards {
-  height: 1000px;
   margin: 0 auto;
   width: 792px;
   padding-top: 100px; }
@@ -788,6 +798,39 @@ details li a.filtro--a {
 
 .content--text h1 {
   text-align: center; }
+
+.content--text-movil {
+  display: none; }
+
+@media (max-width: 500px) {
+  .content--text {
+    display: none; }
+  .content--text-movil {
+    display: block;
+    margin: 0 auto;
+    width: 400px; }
+  .content--text-movil h2 {
+    text-align: center;
+    padding-bottom: 22px;
+    padding-top: 50px; }
+  .content-cards {
+    width: 400px; }
+  .card {
+    width: 175px; }
+  .card2 {
+    width: 175px; }
+  .stars {
+    margin-left: 0px; }
+  .card + .card {
+    margin-left: 15px;
+    margin-right: 5px; }
+  .card2 + .card2 {
+    margin-left: 15px;
+    margin-right: 5px; }
+  .card img {
+    width: 175px; }
+  .card2 img {
+    width: 175px; } }
 
 .curiosities {
   height: 400px;
