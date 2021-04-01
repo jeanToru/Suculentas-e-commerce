@@ -1,17 +1,18 @@
-const accordionElem = document.getElementById("accordion");
+let btnItems = document.querySelectorAll(".item .btn-item");
 
-function showPanel(panel){
-  let expandedPanel = accordionElem.querySelector(".active");
-  if (expandedPanel){
-    expandedPanel.classList.remove("active");
-  }else{
-    panel.classList.add("active");
-  }
+for (let i = 0; i < btnItems.length; i++) {
+  btnItems[i].addEventListener('click', (e)=>{
+    let btn = e.target;
+    if (btn.className =="btn-item active") {
+      removeClass();
+    }else{
+      removeClass();
+      btn.classList.add('active');
+    }
+  })
 }
-
-let allPanelElems = accordionElem.querySelectorAll(".accordion__content");
-for (let i = 0; i < allPanelElems.length; i++){
-  allPanelElems[i].addEventListener("click", (event) => {
-    showPanel(event.currentTarget);
-  });
+function removeClass() {
+  for (let i = 0; i < btnItems.length; i++) {
+    btnItems[i].classList.remove('active');
+  }
 }
