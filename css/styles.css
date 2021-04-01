@@ -781,6 +781,14 @@ details li a.filtro--a {
   top: 0px;
   width: 24px; }
 
+.content--text {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 889px; }
+
+.content--text h1 {
+  text-align: center; }
+
 .curiosities {
   height: 400px;
   margin-left: 80px;
