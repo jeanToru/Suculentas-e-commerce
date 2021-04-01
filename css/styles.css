@@ -356,6 +356,13 @@ summary:hover {
   border: 1px solid #886750;
   color: #ffff; }
 
+.main-container {
+  display: none; }
+
+@media (max-width: 500px) {
+  .tabs {
+    display: none; } }
+
 .gallery {
   width: 390px;
   float: left;
@@ -404,18 +411,18 @@ img {
 .main-container {
   display: none; }
 
-@media (max-width: 525px) {
+@media (max-width: 500px) {
   .main-container {
     display: block; }
   .btn-item {
     background: #292021;
     color: white;
     display: block;
-    font-size: 24px;
+    font-size: 18px;
     padding: 10px; }
   .btn-item.active {
     background: #886750;
-    font-size: 24px; }
+    font-size: 18px; }
   .btn-item:after {
     content: "\002b";
     float: right; }
@@ -428,7 +435,7 @@ img {
     opacity: 0;
     overflow: hidden; }
   .item-content h2 {
-    font-size: 36px; }
+    font-size: 30px; }
   .item-content ul {
     padding-bottom: 15px;
     padding-top: 15px; }
@@ -441,10 +448,10 @@ img {
   .gallery {
     float: left;
     margin-bottom: 50px;
-    margin-left: 100px;
+    margin-left: 30px;
     width: 390px; }
   .accordion__info--addCard {
-    margin-left: 150px;
+    margin-left: 70px;
     text-align: center;
     width: 296px; }
   * {
@@ -454,7 +461,9 @@ img {
   .main-container {
     margin: 0 auto;
     padding: 8px;
-    width: 600px; } }
+    width: 450px; }
+  .container-carrusel {
+    display: none; } }
 
 .modal__content {
   background-color: #c9c0bb;

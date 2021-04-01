@@ -58,3 +58,13 @@
   background-color: $light-brown-hover;
   border: 1px solid $light-brown-hover;
   color: $white; }
+
+.main-container{
+  display: none;
+}
+
+@media(max-width: 500px){
+  .tabs{
+    display: none;
+  }
+}
