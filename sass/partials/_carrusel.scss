@@ -87,15 +87,7 @@
     @include circle(1.5em);
 
     &.active {
-      &:after {
-        background: $white;
-        content: "";
-        left: 50%;
-        position: absolute;
-        transform: translate(-50%, -50%);
-        top: 50%;
-        @include circle(0.70em);
-      }
+      background: $light-brown-hover;
     }
   }
 }
