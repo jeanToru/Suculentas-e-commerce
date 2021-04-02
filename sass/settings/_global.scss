@@ -42,20 +42,11 @@ a{
   margin: 0 auto;
   width: 1280px;
 }
-#wrapper--second{
-  margin: 0 auto;
-  width: 1080px;
-}
 
 @media(max-width: 500px){
   #wrapper--principal{
     max-width: 100%;
     margin: 0 auto;
     width: 500px;
-  }
-  #wrapper--second{
-    max-width: 100%;
-    margin: 0 auto;
-    width: 450px;
   }
 }
