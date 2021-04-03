@@ -930,7 +930,8 @@ details li a.filtro--a {
       background: #886750; }
 
 .site-map {
-  display: block; }
+  display: block;
+  margin-bottom: 50px; }
   .site-map .site-map--inicio {
     text-decoration: none; }
 
