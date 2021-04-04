@@ -1,6 +1,6 @@
 let inforCarrito = [];
 
-function deleteproduct(id){
+function deleteproduct(id) {
   fetch(`https://604fd24fc20143001744dd3e.mockapi.io/Carrito/${id}`, {
     method: 'DELETE'
   })
@@ -13,7 +13,7 @@ function contendor(cardinfo) {
   const shoppingCartcontentimg = document.createElement('div');
   shoppingCartcontentimg.setAttribute('class', 'shoppingCart__content--img');
   const img = document.createElement('img');
-  img.setAttribute('src', `img/${cardinfo .id}.png`);
+  img.setAttribute('src', `img/${cardinfo.id}.png`);
   img.setAttribute('alt', `${cardinfo.name}`);
   const shoppingCartcontenttitle = document.createElement('div');
   shoppingCartcontenttitle.setAttribute('class', 'shoppingCart__content--title');
@@ -29,7 +29,7 @@ function contendor(cardinfo) {
   parrafocost.innerHTML = `${cardinfo.priceProduct}`;
   const boton = document.createElement('button');
   boton.setAttribute('id', `delete-${cardinfo.id}`);
-  boton.setAttribute('class','info--button');
+  boton.setAttribute('class', 'info--button');
   boton.dataset.taskId = cardinfo.id;
   boton.innerHTML = 'X';
 
@@ -45,12 +45,11 @@ function contendor(cardinfo) {
   boton.addEventListener('click', (event) => {
     const taskId = event.currentTarget.dataset.taskId;
     deleteproduct(taskId);
-    console.log(taskId);
     event.currentTarget.parentNode.parentNode.remove();
   });
 }
 
-fetch("https://604fd24fc20143001744dd3e.mockapi.io/Carrito")
+fetch('https://604fd24fc20143001744dd3e.mockapi.io/Carrito')
   .then((response) => response.json())
   .then((data) => {
     inforCarrito = data;
@@ -60,4 +59,3 @@ fetch("https://604fd24fc20143001744dd3e.mockapi.io/Carrito")
       contendor(inforCarrito[i], i);
     }
   });
-
