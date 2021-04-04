@@ -22,7 +22,7 @@
       <!--------------Menú hamburguesa-------------->
       <div class="header--movil">
         <div class="header__logo">
-          <img src="img/logo-movil.png" alt="Logo de Suculenta's Garden">
+          <a href="index.html"><img src="img/logo-movil.png" alt="Logo de Suculenta's Garden"></a>
         </div>
 
         <div class="signincart">
@@ -61,7 +61,7 @@
         <div class="tangle-1 clearfix">
 
           <div class="header__logo">
-            <img src="img/logo.png" alt="Logo de Suculenta's Garden">
+            <a href="index.html"><img src="img/logo.png" alt="Logo de Suculenta's Garden"></a>
           </div>
 
           <div class="header__menu">
@@ -149,6 +149,7 @@
 
               <img src="img/estrellas.png" alt="estrellas">
               <button id="addjs" class="button-principal">Añadir al carrito</button>
+              <div class="alert-Container" id="alert__Container"></div>
             </div>
           </div>
         </div>
@@ -211,7 +212,8 @@
                   <p>$6.00</p>
 
                   <img src="img/estrellas.png" alt="estrellas">
-                  <button id="addjs" class="button-principal">Añadir al carrito</button>
+                  <button id="addjs-movil" class="button-principal">Añadir al carrito</button>
+                  <div class="alert-Container" id="alert__Container"></div>
                 </div>
               </div>
             </div>
@@ -347,36 +349,38 @@
       <!--------------Modal-------------->
       <div id="signincart__modal" class="modal">
         <div class="modal__content">
-          <a class="close__modal" href="#"><img src="img/boton-x.png"></a>
-          <img class="img__sign__up" src="img/registro.png">
-          <h2>Registrarse</h2>
-          <div class="google__facebook__icons">
-            <a href="#"><img src="img/google.png" alt="Registrate con tu cuenta de google"></a>
-            <a href="#"><img src="img/face-register.png" alt="Registrate con tu cuenta de facebook"></a>
-          </div>
-          <div class="sign__in__form">
-            <div class="box">
-              <div class="icon__form">
-                <img src="img/persona.png" id="user-icon-form">
-              </div>
-              <input class="input1" type="text" placeholder="Nombre Completo" required="required" />
+          <form action="">
+            <a class= "close__modal" href="#"><img src="img/boton-x.png"></a>
+            <img class="img__sign__up" src="img/registro.png">
+            <h2>Registrarse</h2>
+            <div class="google__facebook__icons">
+              <a href="#"><img src="img/google.png" alt="Registrate con tu cuenta de google"></a>
+              <a href="#"><img src="img/face-register.png" alt="Registrate con tu cuenta de facebook"></a>
             </div>
+            <div class="sign__in__form">
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/persona.png" id="user-icon-form">
+                </div>
+                  <input class="input1" type="text" placeholder="Nombre Completo" required ="required"/>
+              </div>
 
-            <div class="box">
-              <div class="icon__form">
-                <img src="img/correo.png" id="mail-icon-form">
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/correo.png" id="mail-icon-form">
+                </div>
+                  <input class="input1" type="text" placeholder="E-mail" required ="required"/>
               </div>
-              <input class="input1" type="text" placeholder="E-mail" required="required" />
-            </div>
 
-            <div class="box">
-              <div class="icon__form">
-                <img src="img/contraseña.png" id="lock-icon-form">
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/contraseña.png" id="lock-icon-form">
+                </div>
+                <input class="input1" type="text" placeholder="Contraseña" required ="required"/>
               </div>
-              <input class="input1" type="text" placeholder="Contraseña" required="required" />
+              <button type="submit" class="button-principal box_button--margin">Registrarse</button>
             </div>
-            <button type="submit" class="button-principal box_button--margin">Registrarse</button>
-          </div>
+          </form>
         </div>
       </div>
 
@@ -406,6 +410,7 @@
     <script src="js/galery.js"></script>
     <script src="js/carrusel.js"></script>
     <script src="js/shopping.js"></script>
+    <script src="js/addsshoppingcar.js"></script>
     <script src="js/drawer.js"></script>
     <script src="js/accordeon.js"></script>
     <script src="js/menu--hamburguer.js"></script>

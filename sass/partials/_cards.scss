@@ -7,15 +7,23 @@
   text-align: center;
 }
 .card {
+  background-color: $white;
+  border-radius: 20px;
+  box-shadow: -2.23663px 5.96436px 52.1881px rgba(0, 0, 0, 0.048);
   float: left;
   margin-bottom: 82px;
+  padding-bottom: 25px;
   position: relative;
   width: 248px;
 }
 
 .card2 {
+  background-color: $white;
+  border-radius: 20px;
+  box-shadow: -2.23663px 5.96436px 52.1881px rgba(0, 0, 0, 0.048);
   float: left;
   margin-bottom: 82px;
+  padding-bottom: 25px;
   position: relative;
   width: 248px;
 }
@@ -113,11 +121,11 @@
     margin-left: 0px;
   }
   .card + .card {
-    margin-left: 15px;
+    margin-left: 5px;
     margin-right: 5px;
   }
   .card2 + .card2 {
-    margin-left: 15px;
+    margin-left: 1px;
     margin-right: 5px;
   }
   .card img{
