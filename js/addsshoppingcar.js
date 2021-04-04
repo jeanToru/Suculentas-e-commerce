@@ -1,0 +1,33 @@
+const adds = document.getElementById('addjs');
+const info = document.querySelector('.list-container');
+const nombre = document.querySelector('h2');
+const img = document.querySelectorAll('img')[9];
+const precio = document.querySelectorAll('p')[6];
+let ident = img.getAttribute('src');
+
+function pushinfo(infopush) {
+  fetch('https://604fd24fc20143001744dd3e.mockapi.io/Carrito', {
+    method: 'POST',
+    body: JSON.stringify(infopush),
+    headers: {
+      "Content-Type": "application/json"
+    },
+  });
+}
+
+adds.addEventListener('click', (event) => {
+  event.preventDefault();
+
+  if (ident.length === 9) {
+    ident = ident.substring(4, 5);
+  } else if (ident.length === 10) {
+    ident = ident.substring(4, 6);
+  }
+
+  const infopush = {
+    'img': ident,
+    'name': nombre.textContent,
+    'priceProduct': precio.textContent
+  }
+  pushinfo(infopush);
+});

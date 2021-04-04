@@ -1,5 +1,11 @@
 let inforCarrito = [];
 
+function deleteproduct(id){
+  fetch(`https://604fd24fc20143001744dd3e.mockapi.io/Carrito/${id}`, {
+    method: 'DELETE'
+  })
+}
+
 function contendor(cardinfo) {
   const contentCart = document.getElementById('shoppingCart');
   const divsubpadre = document.createElement('div');
@@ -38,11 +44,13 @@ function contendor(cardinfo) {
   contentCart.appendChild(divsubpadre);
   boton.addEventListener('click', (event) => {
     const taskId = event.currentTarget.dataset.taskId;
+    deleteproduct(taskId);
+    console.log(taskId);
     event.currentTarget.parentNode.parentNode.remove();
   });
 }
 
-fetch("https://604fd24fc20143001744dd3e.mockapi.io/Products")
+fetch("https://604fd24fc20143001744dd3e.mockapi.io/Carrito")
   .then((response) => response.json())
   .then((data) => {
     inforCarrito = data;
