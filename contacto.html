@@ -84,7 +84,7 @@
 
           <div class="signincart">
             <a href="#signincart__modal"> <img src="img/Registrarse.png"></a>
-            <a id="drawer--open"><img class="cart" src="img/Carrito.png"></a>
+            <a id="drawer--view"><img class="cart" src="img/Carrito.png"></a>
           </div>
         </div>
       </div>
@@ -144,36 +144,38 @@
       <!--------------Modal-------------->
       <div id="signincart__modal" class="modal">
         <div class="modal__content">
-          <a class= "close__modal" href="#"><img src="img/boton-x.png"></a>
-          <img class="img__sign__up" src="img/registro.png">
-          <h2>Registrarse</h2>
-          <div class="google__facebook__icons">
-            <a href="#"><img src="img/google.png" alt="Registrate con tu cuenta de google"></a>
-            <a href="#"><img src="img/face-register.png" alt="Registrate con tu cuenta de facebook"></a>
-          </div>
-          <div class="sign__in__form">
-            <div class="box">
-              <div class="icon__form">
-                <img src="img/persona.png" id="user-icon-form">
-              </div>
-                <input class="input1" type="text" placeholder="Nombre Completo" required ="required"/>
+          <form action="">
+            <a class= "close__modal" href="#"><img src="img/boton-x.png"></a>
+            <img class="img__sign__up" src="img/registro.png">
+            <h2>Registrarse</h2>
+            <div class="google__facebook__icons">
+              <a href="#"><img src="img/google.png" alt="Registrate con tu cuenta de google"></a>
+              <a href="#"><img src="img/face-register.png" alt="Registrate con tu cuenta de facebook"></a>
             </div>
+            <div class="sign__in__form">
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/persona.png" id="user-icon-form">
+                </div>
+                  <input class="input1" type="text" placeholder="Nombre Completo" required ="required"/>
+              </div>
 
-            <div class="box">
-              <div class="icon__form">
-                <img src="img/correo.png" id="mail-icon-form">
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/correo.png" id="mail-icon-form">
+                </div>
+                  <input class="input1" type="text" placeholder="E-mail" required ="required"/>
               </div>
-                <input class="input1" type="text" placeholder="E-mail" required ="required"/>
-            </div>
 
-            <div class="box">
-              <div class="icon__form">
-                <img src="img/contraseña.png" id="lock-icon-form">
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/contraseña.png" id="lock-icon-form">
+                </div>
+                <input class="input1" type="text" placeholder="Contraseña" required ="required"/>
               </div>
-              <input class="input1" type="text" placeholder="Contraseña" required ="required"/>
+              <button type="submit" class="button-principal box_button--margin">Registrarse</button>
             </div>
-            <button type="submit" class="button-principal box_button--margin">Registrarse</button>
-          </div>
+          </form>
         </div>
       </div>
 

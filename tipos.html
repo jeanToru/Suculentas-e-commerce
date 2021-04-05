@@ -22,7 +22,7 @@
       <!--------------Menú hamburguesa-------------->
       <div class="header--movil">
         <div class="header__logo">
-          <img src="img/logo-movil.png" alt="Logo de Suculenta's Garden">
+          <a href="index.html"><img src="img/logo-movil.png" alt="Logo de Suculenta's Garden"></a>
         </div>
 
         <div class="signincart">
@@ -61,7 +61,7 @@
         <div class="tangle-1 clearfix">
 
           <div class="header__logo">
-            <img src="img/logo.png" alt="Logo de Suculenta's Garden">
+            <a href="index.html"><img src="img/logo.png" alt="Logo de Suculenta's Garden"></a>
           </div>
 
           <div class="header__menu">
@@ -81,7 +81,7 @@
 
           <div class="signincart">
             <a href="#signincart__modal"> <img src="img/Registrarse.png"></a>
-            <a id="drawer--open"><img class="cart" src="img/Carrito.png"></a>
+            <a id="drawer--view"><img class="cart" src="img/Carrito.png"></a>
           </div>
         </div>
       </div>
@@ -113,6 +113,14 @@
         </div>
       </div>
 
+      <!--------------Filtro-------------->
+      <div class="filtro--Content">
+        <select>
+          <option>mayor precio</option>
+          <option>menor pecio</option>
+        </select>
+      </div>
+
       <!--------------tipos de echeveria-------------->
       <div class="content--text">
         <h1>Tipos de Echeverias</h1>
@@ -134,7 +142,7 @@
           <h3 class="titleCard">Echeveria Agavoides</h3>
           <p class="price">$ 6.00</p>
           <img src="img/estrellas.png" alt="Calificación" class="stars">
-          <a href="producto-agavoide.html" class="button-principal button--margin">Ver Detalles</a>
+          <a href="producto-agavoides.html" class="button-principal button--margin">Ver Detalles</a>
         </div>
         <div class="card">
           <img src="img/2.png" alt="Suculenta Echeveria">
@@ -176,36 +184,38 @@
       <!--------------Modal-------------->
       <div id="signincart__modal" class="modal">
         <div class="modal__content">
-          <a class= "close__modal" href="#"><img src="img/boton-x.png"></a>
-          <img class="img__sign__up" src="img/registro.png">
-          <h2>Registrarse</h2>
-          <div class="google__facebook__icons">
-            <a href="#"><img src="img/google.png" alt="Registrate con tu cuenta de google"></a>
-            <a href="#"><img src="img/face-register.png" alt="Registrate con tu cuenta de facebook"></a>
-          </div>
-          <div class="sign__in__form">
-            <div class="box">
-              <div class="icon__form">
-                <img src="img/persona.png" id="user-icon-form">
-              </div>
-                <input class="input1" type="text" placeholder="Nombre Completo" required ="required"/>
+          <form action="">
+            <a class= "close__modal" href="#"><img src="img/boton-x.png"></a>
+            <img class="img__sign__up" src="img/registro.png">
+            <h2>Registrarse</h2>
+            <div class="google__facebook__icons">
+              <a href="#"><img src="img/google.png" alt="Registrate con tu cuenta de google"></a>
+              <a href="#"><img src="img/face-register.png" alt="Registrate con tu cuenta de facebook"></a>
             </div>
+            <div class="sign__in__form">
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/persona.png" id="user-icon-form">
+                </div>
+                  <input class="input1" type="text" placeholder="Nombre Completo" required ="required"/>
+              </div>
 
-            <div class="box">
-              <div class="icon__form">
-                <img src="img/correo.png" id="mail-icon-form">
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/correo.png" id="mail-icon-form">
+                </div>
+                  <input class="input1" type="text" placeholder="E-mail" required ="required"/>
               </div>
-                <input class="input1" type="text" placeholder="E-mail" required ="required"/>
-            </div>
 
-            <div class="box">
-              <div class="icon__form">
-                <img src="img/contraseña.png" id="lock-icon-form">
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/contraseña.png" id="lock-icon-form">
+                </div>
+                <input class="input1" type="text" placeholder="Contraseña" required ="required"/>
               </div>
-              <input class="input1" type="text" placeholder="Contraseña" required ="required"/>
+              <button type="submit" class="button-principal box_button--margin">Registrarse</button>
             </div>
-            <button type="submit" class="button-principal box_button--margin">Registrarse</button>
-          </div>
+          </form>
         </div>
       </div>
 
