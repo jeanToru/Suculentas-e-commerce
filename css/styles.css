@@ -504,9 +504,7 @@ img {
   .main-container {
     margin: 0 auto;
     padding: 8px;
-    width: 450px; }
-  .container-carrusel {
-    display: none; } }
+    width: 450px; } }
 
 .modal__content {
   background-color: #c9c0bb;
@@ -1496,8 +1494,7 @@ details li a.filtro--a {
     .contentOffers2 a {
       margin-left: 160px;
       text-decoration: none; } }
-
-@media (max-width: 500px) {
+@media (max-width: 300px) {
   .contentOffers {
     margin-left: 35px;
     width: 450px; } }
@@ -1586,6 +1583,13 @@ details li a.filtro--a {
   .signincart {
     margin-top: 31px;
     padding-right: 54px; } }
+
+@media (max-width: 300px) {
+  .header__logo {
+    margin-top: 17px; }
+  .signincart {
+    margin-top: 31px;
+    padding-right: 10px; } }
 
 @media (max-width: 300px) {
   .header__logo {
