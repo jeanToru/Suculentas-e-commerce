@@ -103,3 +103,42 @@
   }
 
 }
+
+@media(max-width: 300px){
+  .footer {
+    margin-left: 12px;
+    width: 502px;
+  }
+  .foo-menu {
+    float: left;
+    margin-left: 0px;
+    margin-top: 0px;
+
+    p{
+      margin-top: 50px;
+    }
+  }
+  .foo-nav-list{
+    display: none;
+  }
+  .follow-us{
+    display: block;
+    float: none;
+    padding-left: 194px;
+    margin-right: 80px;
+    margin-top: 29px;
+
+    p{
+      margin-left: 0px;
+    }
+
+    img{
+      margin-top: 10px;
+      margin-left: 7px;
+    }
+  }
+  .copyright {
+    margin: 0 0 35px 80px;
+  }
+
+}
