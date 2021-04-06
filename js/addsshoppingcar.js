@@ -1,5 +1,5 @@
 const adds = document.getElementById('addjs');
-const addsmovil = document.getElementById('addjs-movil');
+const addsmovil = document.getElementById('addjs-responsive');
 const info = document.querySelector('.list-container');
 const nombre = document.querySelector('h2');
 const img = document.querySelectorAll('img')[9];
@@ -7,6 +7,7 @@ const precio = document.querySelectorAll('p')[6];
 let ident = img.getAttribute('src');
 const open = document.getElementById('open');
 const alertContainer = document.getElementById('alert__Container');
+const alertResponsive = document.getElementById('alert__Container-responsive');
 
 
 function pushinfo(infopush) {
@@ -66,16 +67,16 @@ addsmovil.addEventListener('click', (event) => {
   }
   pushinfo(infopush);
 
-  alertContainer.innerHTML = `
-    <div class="alert alert--product">
+  alertResponsive.innerHTML = `
+    <div class="alert alert--movil alert--product">
       <img src="img/check.png" alt="check">
       <h2>Se agrego su producto</h2>
-      <button class=" button-principal details" id="close">ok</button>
+      <button class=" button-principal responsive" id="close">ok</button>
     </div>`;
-  alertContainer.classList.add('show');
+  alertResponsive.classList.add('show');
   const close = document.getElementById('close');
 
   close.addEventListener('click', () => {
-    alertContainer.classList.remove('show');
+    alertResponsive.classList.remove('show');
   });
 });
