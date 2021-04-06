@@ -1,4 +1,5 @@
 let inforCarrito = [];
+const actualizar = document.getElementById('addjs');
 
 function deleteproduct(id) {
   fetch(`https://604fd24fc20143001744dd3e.mockapi.io/Carrito/${id}`, {
@@ -48,7 +49,7 @@ function contendor(cardinfo) {
     event.currentTarget.parentNode.parentNode.remove();
   });
 }
-
+function call(){
 fetch('https://604fd24fc20143001744dd3e.mockapi.io/Carrito')
   .then((response) => response.json())
   .then((data) => {
@@ -58,4 +59,12 @@ fetch('https://604fd24fc20143001744dd3e.mockapi.io/Carrito')
     for (let i = 0; i < inforCarrito.length; i += 1) {
       contendor(inforCarrito[i], i);
     }
+  });
+}
+call();
+  actualizar.addEventListener('click', (event) => {
+    event.preventDefault();
+    console.log(actualizar);
+    setTimeout('call()', 2000);
+
   });
