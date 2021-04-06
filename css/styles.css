@@ -319,6 +319,17 @@ summary:hover {
     margin: 0 auto;
     width: 460px; } }
 
+@media (max-width: 300px) {
+  .container-slider {
+    display: none; }
+  .content--img {
+    background-image: url(../img/img-movil.png);
+    background-size: cover;
+    display: block;
+    height: 314px;
+    margin: 0 auto;
+    width: 549px; } }
+
 .tabs {
   height: 479px;
   margin: 0 auto;
@@ -493,9 +504,7 @@ img {
   .main-container {
     margin: 0 auto;
     padding: 8px;
-    width: 450px; }
-  .container-carrusel {
-    display: none; } }
+    width: 450px; } }
 
 .modal__content {
   background-color: #c9c0bb;
@@ -773,6 +782,33 @@ details li a.filtro--a {
     left: -30px;
     width: 145px; } }
 
+@media (max-width: 300px) {
+  #cards {
+    margin-left: 100px;
+    width: 310px; }
+  .card__row {
+    float: none; }
+  .card__row-3 {
+    width: 425px; }
+  .card__content {
+    float: none;
+    height: 300px;
+    width: 279px; }
+  .card__content-3 {
+    float: none;
+    margin-right: 65px; }
+  .card--kalanchoe {
+    margin-left: 0px; }
+  .card__content--p {
+    font-size: 44px;
+    padding-top: 171px; }
+  .card__content--a {
+    margin-top: 15px;
+    padding: 10px 17px; }
+  .card__content--img {
+    height: 200px;
+    width: 221px; } }
+
 .content-cards {
   margin: 0 auto;
   width: 792px;
@@ -954,6 +990,44 @@ details li a.filtro--a {
     width: 1.5em; }
     .map > button.active {
       background: #886750; }
+
+.carrusel--Movil {
+  display: none; }
+
+@media (max-width: 500px) {
+  .carrusel--Desktop {
+    display: none; }
+  .carrusel--Movil {
+    display: block;
+    padding-top: 100px; }
+  .container-carrusel {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 450px; }
+  .wrapperCarrusel {
+    display: flex;
+    grid-gap: 1em;
+    overflow: hidden;
+    width: 350px; }
+    .wrapperCarrusel > .inner--Movil {
+      display: flex;
+      grid-gap: 1em;
+      transition: all 1s ease-in-out; }
+  .map--Movil {
+    margin-bottom: 22px;
+    margin-top: 22px; }
+    .map--Movil > button {
+      all: unset;
+      background: #463638;
+      cursor: pointer;
+      margin: 0 0.125em;
+      position: relative;
+      user-select: none;
+      border-radius: 100%;
+      height: 1.5em;
+      width: 1.5em; }
+      .map--Movil > button.active {
+        background: #886750; } }
 
 .site-map {
   display: block;
@@ -1183,6 +1257,32 @@ details li a.filtro--a {
   .copyright {
     margin: 0 0 35px 55px; } }
 
+@media (max-width: 300px) {
+  .footer {
+    margin-left: 12px;
+    width: 502px; }
+  .foo-menu {
+    float: left;
+    margin-left: 0px;
+    margin-top: 0px; }
+    .foo-menu p {
+      margin-top: 50px; }
+  .foo-nav-list {
+    display: none; }
+  .follow-us {
+    display: block;
+    float: none;
+    padding-left: 194px;
+    margin-right: 80px;
+    margin-top: 29px; }
+    .follow-us p {
+      margin-left: 0px; }
+    .follow-us img {
+      margin-top: 10px;
+      margin-left: 7px; }
+  .copyright {
+    margin: 0 0 35px 80px; } }
+
 .curiosities {
   height: 400px;
   margin-left: 80px;
@@ -1231,6 +1331,19 @@ details li a.filtro--a {
       text-align: left; }
     .curiosities__content a {
       margin-left: 170px; } }
+
+@media (max-width: 300px) {
+  .curiosities--img img {
+    display: none;
+    float: none; }
+  .curiosities__content {
+    width: 475px; }
+    .curiosities__content .curiosities--title {
+      font-size: 45px;
+      padding-bottom: 20px;
+      text-align: center; }
+    .curiosities__content a {
+      margin-left: 190px; } }
 
 .menu {
   display: none; }
@@ -1330,6 +1443,12 @@ details li a.filtro--a {
     padding-left: 111px;
     padding-top: 20px; } }
 
+@media (max-width: 300px) {
+  .menu {
+    display: block; }
+  .hamburger {
+    right: -199px; } }
+
 .contentOffers {
   margin: 0 auto;
   padding-top: 100px;
@@ -1375,6 +1494,11 @@ details li a.filtro--a {
     .contentOffers2 a {
       margin-left: 160px;
       text-decoration: none; } }
+
+@media (max-width: 300px) {
+  .contentOffers {
+    margin-left: 35px;
+    width: 450px; } }
 
 .body {
   margin: 0 auto; }
@@ -1460,6 +1584,13 @@ details li a.filtro--a {
   .signincart {
     margin-top: 20px;
     padding-right: 70px; } }
+
+@media (max-width: 300px) {
+  .header__logo {
+    margin-top: 17px; }
+  .signincart {
+    margin-top: 31px;
+    padding-right: 10px; } }
 
 .drawer {
   height: 100%;

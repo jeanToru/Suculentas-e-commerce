@@ -64,3 +64,22 @@
   }
 }
 
+@media(max-width: 300px){
+  .curiosities--img img {
+    display: none;
+    float: none;
+  }
+
+  .curiosities__content{
+    width: 475px;
+
+    .curiosities--title{
+      font-size: 45px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    a{
+      margin-left: 190px;
+    }
+  }
+}

@@ -65,3 +65,17 @@ background-color: $white;
     width: 460px;
   }
 }
+
+@media(max-width: 300px){
+  .container-slider{
+    display: none;
+  }
+  .content--img{
+    background-image: url(../img/img-movil.png);
+    background-size: cover;
+    display: block;
+    height: 314px;
+    margin: 0 auto;
+    width: 549px;
+  }
+}
