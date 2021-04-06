@@ -22,7 +22,7 @@
       <!--------------Menú hamburguesa-------------->
       <div class="header--movil">
         <div class="header__logo">
-          <a href="index.html"><img src="img/logo-movil.png" alt="Logo de Suculenta's Garden"></a>
+          <img src="img/logo-movil.png" alt="Logo de Suculenta's Garden">
         </div>
 
         <div class="signincart">
@@ -32,7 +32,7 @@
         <div class="menu">
           <ul>
             <li><a href="index.html" class="menu__line">Inicio</a></li>
-            <li><a href="tipos.html" class="menu__line">Producto</a></li>
+            <li><a class="menu__line">Producto</a></li>
             <li><a class="menu__line menu__title--family">Familia Suculentas</a></li>
             <li><a href="tipos.html" class="menu__family">Echeveria</a></li>
             <li><a class="menu__family">Aonium</a></li>
@@ -43,8 +43,8 @@
             <li><a class="menu__family">Kalanchoe</a></li>
             <li><a class="menu__family">Haworthia</a></li>
             <li><a class="menu__family">Sedum</a></li>
-            <li><a href="#signincart__modal" class="menu__line menu__register">Registrarse</a></li>
-            <li><a href="contacto.html" class="menu__line">Contacto</a></li>
+            <li><a class="menu__line menu__register">Registrarse</a></li>
+            <li><a class="menu__line">Contacto</a></li>
             <li><a class="menu__line menu__ayuda">Ayuda</a></li>
           </ul>
         </div>
@@ -61,7 +61,7 @@
         <div class="tangle-1 clearfix">
 
           <div class="header__logo">
-            <a href="index.html"><img src="img/logo.png" alt="Logo de Suculenta's Garden"></a>
+            <a href="index.html"><img src="img/logo-movil.png" alt="Logo de Suculenta's Garden"></a>
           </div>
 
           <div class="header__menu">
@@ -88,7 +88,7 @@
 
       <!--site map-->
       <div class="site-map">
-        <a class="site-map--inicio" href="index.html">INICIO »</a> <a class="site-map--inicio" href="tipos.html">TIPOS DE ECHEVERIAS »</a> <a class="site-map--curiosities" href="producto-blacknight.html">ECHEVERIA BLACK KNIGHT</a>
+        <a class="site-map--inicio" href="index.html">INICIO »</a> <a class="site-map--inicio" href="tipos.html">TIPOS DE ECHEVERIAS »</a> <a class="site-map--curiosities" href="producto-agavoide.html">ECHEVERIA AGAVOIDE</a>
       </div>
 
       <!--------------Tabs-------------->
@@ -225,8 +225,8 @@
         </div>
       </div>
 
-      <!--------------carrucel-------------->
-      <div class="container-carrusel">
+      <!--------------carrusel-------------->
+      <div class="container-carrusel carrusel--Desktop">
         <h1>Productos Relacionados</h1>
         <div class="center">
           <div class="wrapperCarrusel">
@@ -350,41 +350,82 @@
         </div>
       </div>
 
+      <div class="container-carrusel carrusel--Movil">
+        <h1>Productos Relacionados</h1>
+        <div class="center">
+          <div class="wrapperCarrusel">
+            <div class="inner--Movil">
+              <div class="cards margin--card">
+                <img src="img/2.png">
+                <div class="content">
+                  <h1>Senecio cephalophorus</h1>
+                  <h3>$ 6.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <button class="button-principal">Ver Detalles</button>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/4.png">
+                <div class="content">
+                  <h1>Senecio cephalophorus</h1>
+                  <h3>$ 6.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <button class="button-principal">Ver Detalles</button>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/6.png">
+                <div class="content">
+                  <h1>Senecio cephalophorus</h1>
+                  <h3>$ 6.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <button class="button-principal">Ver Detalles</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="map--Movil">
+            <button class="active first"></button>
+            <button class="second"></button>
+            <button class="third"></button>
+          </div>
+        </div>
+      </div>
+
       <!--------------Modal-------------->
       <div id="signincart__modal" class="modal">
         <div class="modal__content">
-          <form action="">
-            <a class= "close__modal" href="#"><img src="img/boton-x.png"></a>
-            <img class="img__sign__up" src="img/registro.png">
-            <h2>Registrarse</h2>
-            <div class="google__facebook__icons">
-              <a href="#"><img src="img/google.png" alt="Registrate con tu cuenta de google"></a>
-              <a href="#"><img src="img/face-register.png" alt="Registrate con tu cuenta de facebook"></a>
+          <a class="close__modal" href="#"><img src="img/boton-x.png"></a>
+          <img class="img__sign__up" src="img/registro.png">
+          <h2>Registrarse</h2>
+          <div class="google__facebook__icons">
+            <a href="#"><img src="img/google.png" alt="Registrate con tu cuenta de google"></a>
+            <a href="#"><img src="img/face-register.png" alt="Registrate con tu cuenta de facebook"></a>
+          </div>
+          <div class="sign__in__form">
+            <div class="box">
+              <div class="icon__form">
+                <img src="img/persona.png" id="user-icon-form">
+              </div>
+              <input class="input1" type="text" placeholder="Nombre Completo" required="required" />
             </div>
-            <div class="sign__in__form">
-              <div class="box">
-                <div class="icon__form">
-                  <img src="img/persona.png" id="user-icon-form">
-                </div>
-                  <input class="input1" type="text" placeholder="Nombre Completo" required ="required"/>
-              </div>
 
-              <div class="box">
-                <div class="icon__form">
-                  <img src="img/correo.png" id="mail-icon-form">
-                </div>
-                  <input class="input1" type="text" placeholder="E-mail" required ="required"/>
+            <div class="box">
+              <div class="icon__form">
+                <img src="img/correo.png" id="mail-icon-form">
               </div>
-
-              <div class="box">
-                <div class="icon__form">
-                  <img src="img/contraseña.png" id="lock-icon-form">
-                </div>
-                <input class="input1" type="text" placeholder="Contraseña" required ="required"/>
-              </div>
-              <button type="submit" class="button-principal box_button--margin">Registrarse</button>
+              <input class="input1" type="text" placeholder="E-mail" required="required" />
             </div>
-          </form>
+
+            <div class="box">
+              <div class="icon__form">
+                <img src="img/contraseña.png" id="lock-icon-form">
+              </div>
+              <input class="input1" type="text" placeholder="Contraseña" required="required" />
+            </div>
+            <button type="submit" class="button-principal box_button--margin">Registrarse</button>
+          </div>
         </div>
       </div>
 

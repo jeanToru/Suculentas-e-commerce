@@ -17,3 +17,23 @@ buttonsWrapper.addEventListener('click', e => {
     }
   }
 });
+
+const buttonsMovil = document.querySelector('.map--Movil');
+const slidesMovil = document.querySelector('.inner--Movil');
+
+buttonsMovil.addEventListener('click', e => {
+  if (e.target.nodeName === 'BUTTON') {
+    Array.from(buttonsMovil.children).forEach(item =>
+      item.classList.remove('active'));
+    if (e.target.classList.contains('first')) {
+      slidesMovil.style.transform = 'translateX(-0%)';
+      e.target.classList.add('active');
+    } else if (e.target.classList.contains('second')) {
+      slidesMovil.style.transform = 'translateX(-32%)';
+      e.target.classList.add('active');
+    } else if (e.target.classList.contains('third')) {
+      slidesMovil.style.transform = 'translatex(-66%)';
+      e.target.classList.add('active');
+    }
+  }
+});
