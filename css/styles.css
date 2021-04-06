@@ -377,7 +377,7 @@ summary:hover {
   padding-bottom: 25px;
   padding-top: 25px;
   text-align: center;
-  width: 296px; }
+  width: 263px; }
 
 .tabs__content--addShoppingCart button {
   background-color: #292021;
@@ -385,7 +385,7 @@ summary:hover {
   border-radius: 20px;
   color: #ffff;
   display: block;
-  margin-left: 85px;
+  margin-left: 64px;
   margin-top: 20px;
   padding: 10px 16px; }
 
@@ -492,11 +492,11 @@ img {
     background-color: #ffff;
     border-radius: 20px;
     box-shadow: -2.23663px 5.96436px 52.1881px rgba(0, 0, 0, 0.048);
-    margin-left: 70px;
+    margin-left: 85px;
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
-    width: 296px; }
+    width: 238px; }
   * {
     margin: 0; }
   body {
