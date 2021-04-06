@@ -7,17 +7,17 @@
   .img__sign__up{
     width: 800px;
   }
-  
+
   h2{
     color: $dark-brown;
     font-family: $bebas-neue;
     text-align: center;
   }
-  
+
   .close__modal img{
     margin: 10px 10px;
   }
-  
+
   .google__facebook__icons{
     text-align: center;
     a{
@@ -69,4 +69,85 @@
 #signincart__modal:target{
   display: block;
   pointer-events:auto;
+}
+
+// mobile
+
+@media(max-width: 500px){
+  .modal__content{
+    height: 650px;
+    margin: 13% auto;
+    position: relative;
+    width: 354px;
+    .img__sign__up{
+      width: 354px;
+    }
+    .google__facebook__icons a img{
+
+      margin-bottom: 30px;
+      text-align: center;
+      width: 46px;
+    }
+  }
+  .sign__in__form{
+    align-items: center;
+  }
+
+  .box{
+    margin-left: 0;
+  }
+
+
+  .input1 {
+    border:1px solid $white;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 10px;
+    position: relative;
+    width: 301px;
+  }
+  .box_button--margin{
+    margin-left: 114px;
+    margin-top: 22px;
+  }
+}
+
+@media(max-width: 300px){
+  .modal__content{
+    height: 600px;
+    margin: 13% auto;
+    position: relative;
+    width: 290px;
+    .img__sign__up{
+      width: 290px;
+    }
+    .google__facebook__icons a img{
+
+      margin-bottom: 30px;
+      text-align: center;
+      width: 46px;
+    }
+  }
+  .sign__in__form{
+    align-items: center;
+  }
+
+  .box{
+    margin-left: 0;
+  }
+
+  .input1 {
+    border: 1px solid $white;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 10px;
+    position: relative;
+    width: 237px;
+  }
+  .box_button--margin{
+    margin-left: 84px;
+    margin-top: 10px;
+  }
 }
