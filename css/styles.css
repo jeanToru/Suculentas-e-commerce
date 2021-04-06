@@ -585,6 +585,9 @@ img {
   border: 1px solid #886750;
   position: relative; }
 
+.alert--movil {
+  width: 98.7%; }
+
 .alert img {
   margin-top: 22px;
   margin-left: 320px; }
@@ -598,6 +601,9 @@ img {
 
 .alert .details {
   margin-left: 285px; }
+
+.alert .responsive {
+  margin-left: 0px; }
 
 .show {
   display: block; }
@@ -1494,6 +1500,7 @@ details li a.filtro--a {
     .contentOffers2 a {
       margin-left: 160px;
       text-decoration: none; } }
+
 @media (max-width: 300px) {
   .contentOffers {
     margin-left: 35px;

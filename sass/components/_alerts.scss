@@ -20,7 +20,9 @@
   border: 1px solid $light-brown-hover;
   position: relative;
 }
-
+.alert--movil {
+  width: 98.7%;
+}
 .alert img {
   margin-top: 22px;
   margin-left: 320px;
@@ -36,6 +38,9 @@
 
 .alert .details {
   margin-left: 285px;
+}
+.alert .responsive {
+  margin-left: 0px;
 }
 
 .show {
