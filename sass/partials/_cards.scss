@@ -49,9 +49,12 @@
 
 .price {
   color: $dark-brown;
-  font-size: 24px;
   margin: 0;
   text-align: center;
+
+  &::before {
+    content: "$ ";
+  }
 }
 
 .details {
