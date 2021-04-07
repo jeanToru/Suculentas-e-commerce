@@ -1,12 +1,22 @@
-/*-----------Menu-----------*/
-var menu = document.querySelector('.hamburger');
+const menu = document.getElementById('menu--movil');
+const cierreMenu = document.getElementById('menu--close');
 
-//method
-function toggleMenu (event) {
-  this.classList.toggle('menu--active');
-  document.querySelector( ".menu" ).classList.toggle("menu--active");
-  event.preventDefault();
+function openMenu() {
+  document.getElementById('menu--js').classList.remove('menu--close');
+  document.getElementById('menu--js').classList.add('menu--open');
 }
 
-//event
-menu.addEventListener('click', toggleMenu, false);
+function closeMenu() {
+  document.getElementById('menu--js').classList.remove('menu--open');
+  document.getElementById('menu--js').classList.add('menu--close');
+}
+
+menu.addEventListener('click', (e) => {
+  e.preventDefault();
+  openMenu();
+});
+
+cierreMenu.addEventListener('click', (e) => {
+  e.preventDefault();
+  closeMenu();
+});
