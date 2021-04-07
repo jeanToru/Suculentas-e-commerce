@@ -1867,3 +1867,19 @@ nav.breadcrumb [aria-current="page"] {
   margin-bottom: 75px;
   margin-left: 166px;
   margin-top: 25px; }
+
+@media (max-width: 500px) {
+  .cardDetail {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 450px; }
+  .cardDetail__img {
+    display: none; }
+  .cardDetail__info h2 {
+    padding-top: 50px; }
+  .cardDetail__form {
+    margin-left: 0px; }
+  .cardDetail__form--content input {
+    border: 1px solid #292021;
+    height: 35px;
+    width: 444px; } }
