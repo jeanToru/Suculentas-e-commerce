@@ -1,16 +1,5 @@
-let inforCarrito = [];
-const actualizar = document.getElementById('addjs');
-
-function deleteproduct(id) {
-  fetch(`https://604fd24fc20143001744dd3e.mockapi.io/Carrito/${id}`, {
-    method: 'DELETE'
-  })
-  setTimeout('call()', 1000);
-  setTimeout('callshow()', 1000);
-}
-
-function contendor(cardinfo) {
-  const contentCart = document.getElementById('shoppingCart');
+function contendorshow(cardinfo) {
+  const contentCart = document.getElementById('showshoppingCart');
   const divsubpadre = document.createElement('div');
   divsubpadre.setAttribute('class', 'shoppingCart__content clearfix');
   const shoppingCartcontentimg = document.createElement('div');
@@ -25,10 +14,10 @@ function contendor(cardinfo) {
   const shoppingCartcontentinfo = document.createElement('div');
   shoppingCartcontentinfo.setAttribute('class', 'shoppingCart__content--info');
   const parrafoinfo = document.createElement('p');
-  parrafoinfo.setAttribute('class','info--amount');
+  parrafoinfo.setAttribute('class', 'info--amount');
   parrafoinfo.innerHTML = '1';
   const parrafocost = document.createElement('p');
-  parrafocost.setAttribute('class','info--cost');
+  parrafocost.setAttribute('class', 'info--cost');
   parrafocost.innerHTML = `${cardinfo.priceProduct}`;
   const boton = document.createElement('button');
   boton.setAttribute('id', `delete-${cardinfo.id}`);
@@ -52,21 +41,19 @@ function contendor(cardinfo) {
   });
 }
 
-function call(){
-fetch('https://604fd24fc20143001744dd3e.mockapi.io/Carrito')
-  .then((response) => response.json())
-  .then((data) => {
-    inforCarrito = data;
-    const contentCart = document.getElementById('shoppingCart');
-    contentCart.innerHTML = '';
-    for (let i = 0; i < inforCarrito.length; i += 1) {
-      contendor(inforCarrito[i], i);
-    }
-  });
-}
-call();
-  actualizar.addEventListener('click', (event) => {
-    event.preventDefault();
-    console.log(actualizar);
-    setTimeout('call()', 1000);
-  });
+function callshow() {
+  fetch('https://604fd24fc20143001744dd3e.mockapi.io/Carrito')
+    .then((response) => response.json())
+    .then((data) => {
+      inforCarrito = data;
+      const contentCart = document.getElementById('shoppingCart');
+      const contentCartshow = document.getElementById('showshoppingCart');
+      contentCart.innerHTML = '';
+      contentCartshow.innerHTML = '';
+      for (let i = 0; i < inforCarrito.length; i += 1) {
+        contendor(inforCarrito[i], i);
+        contendorshow(inforCarrito[i], i);
+      }
+    });
+  }
+  callshow();
