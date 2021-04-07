@@ -688,6 +688,34 @@ details li a.filtro--a {
   .filtro--Content {
     display: none; } }
 
+nav {
+  margin-bottom: 50px;
+  margin-top: 80px; }
+
+.breadcrumb {
+  margin-left: 100px; }
+
+nav.breadcrumb ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none; }
+
+nav.breadcrumb li {
+  display: inline; }
+
+nav.breadcrumb li + li::before {
+  display: inline-block;
+  margin: 0 0.25em;
+  transform: rotate(15deg);
+  border-right: 0.1em solid currentColor;
+  height: 0.8em;
+  content: ''; }
+
+nav.breadcrumb [aria-current="page"] {
+  color: #292021;
+  font-weight: 700;
+  text-decoration: none; }
+
 /*----Partials----*/
 .tipografias {
   margin-left: 400px;
@@ -1092,12 +1120,6 @@ details li a.filtro--a {
       .map--Movil > button.active {
         background: #886750; } }
 
-.site-map {
-  display: block;
-  margin-bottom: 50px; }
-  .site-map .site-map--inicio {
-    text-decoration: none; }
-
 .curiosities--h1 {
   font-size: 45px;
   text-align: center; }
@@ -1245,6 +1267,83 @@ details li a.filtro--a {
       margin-bottom: 40px; }
   .image--curiosities3 {
     width: 400px; } }
+
+@media (max-width: 300px) {
+  .site-map a {
+    display: none; }
+  .curiosities--h1 {
+    display: none; }
+  .curiosities--content {
+    width: 300px; }
+  .section1 {
+    height: 550px;
+    margin: 0 auto;
+    margin-bottom: 190px;
+    padding-top: 50px;
+    width: 300px; }
+  .text {
+    float: none;
+    line-height: 28px;
+    margin-left: 20px;
+    padding-top: 0;
+    width: 250px; }
+    .text h2 {
+      margin-bottom: 30px;
+      text-align: center; }
+    .text p {
+      text-align: left;
+      margin-bottom: 40px; }
+  .image--curiosities1 {
+    height: 300px;
+    margin-bottom: 100px;
+    margin-left: 12px;
+    width: 260px; }
+  .section2 {
+    height: 1000px;
+    margin: 0 auto;
+    margin-bottom: 190px;
+    padding-top: 50px;
+    width: 300px; }
+  .text2 {
+    float: none;
+    line-height: 28px;
+    margin-left: 20px;
+    padding-top: 0;
+    width: 250px; }
+    .text2 h2 {
+      margin-bottom: 30px;
+      text-align: center; }
+    .text2 p {
+      text-align: left;
+      margin-bottom: 40px; }
+  .image--curiosities2 {
+    height: 200px;
+    float: right;
+    margin-bottom: 100px;
+    margin-right: 23px;
+    width: 250px; }
+  .section3 {
+    height: 900px;
+    margin: 0 auto;
+    margin-bottom: 190px;
+    padding-top: 50px;
+    width: 300px; }
+  .text3 {
+    float: none;
+    line-height: 28px;
+    margin-left: 30px;
+    padding-top: 0;
+    width: 250px; }
+    .text3 h2 {
+      margin-bottom: 30px;
+      text-align: center; }
+    .text3 p {
+      text-align: left;
+      margin-bottom: 40px; }
+  .image--curiosities3 {
+    height: 200px;
+    margin-right: 25px;
+    width: 250px; } }
 
 .footer {
   background-color: #c9c0bb;
