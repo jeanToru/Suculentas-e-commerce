@@ -194,3 +194,104 @@
     width: 400px;
   }
 }
+
+@media(max-width: 300px){
+  .site-map a{
+    display: none;
+  }
+  .curiosities--h1{
+    display: none;
+  }
+  .curiosities--content{
+    width: 300px;
+
+  }
+  .section1{
+    height: 550px;
+    margin: 0 auto;
+    margin-bottom: 190px;
+    padding-top: 50px;
+    width: 300px;
+  }
+  .text {
+    float: none;
+    line-height: 28px;
+    margin-left: 20px;
+    padding-top: 0;
+    width: 250px;
+
+    h2{
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    p{
+      text-align: left;
+      margin-bottom: 40px;
+    }
+  }
+  .image--curiosities1{
+    height: 300px;
+    margin-bottom: 100px;
+    margin-left: 12px;
+    width: 260px;
+  }
+  .section2 {
+    height: 1000px;
+    margin: 0 auto;
+    margin-bottom: 190px;
+    padding-top: 50px;
+    width: 300px;
+  }
+
+  .text2 {
+    float: none;
+    line-height: 28px;
+    margin-left: 20px;
+    padding-top: 0;
+    width: 250px;
+    h2{
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    p{
+      text-align: left;
+      margin-bottom: 40px;
+    }
+  }
+  .image--curiosities2{
+    height: 200px;
+    float: right;
+    margin-bottom: 100px;
+    margin-right: 23px;
+    width: 250px;
+  }
+
+  .section3{
+    height: 900px;
+    margin: 0 auto;
+    margin-bottom: 190px;
+    padding-top: 50px;
+    width: 300px;
+  }
+
+  .text3 {
+    float: none;
+    line-height: 28px;
+    margin-left: 30px;
+    padding-top: 0;
+    width: 250px;
+    h2{
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    p{
+      text-align: left;
+      margin-bottom: 40px;
+    }
+  }
+  .image--curiosities3{
+    height: 200px;
+    margin-right: 25px;
+    width: 250px;
+  }
+}
