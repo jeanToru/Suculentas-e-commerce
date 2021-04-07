@@ -31,3 +31,9 @@ nav.breadcrumb [aria-current="page"] {
   font-weight: 700;
   text-decoration: none;
 }
+
+@media(max-width: 500px){
+  .breadcrumb{
+    display: none;
+  }
+}
