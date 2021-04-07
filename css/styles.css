@@ -1670,6 +1670,25 @@ details li a.filtro--a {
   font-size: 36px;
   margin-left: 50px; }
 
+.content--button {
+  margin-left: 253px;
+  margin-top: 100px; }
+
+.content--button a {
+  background-color: #292021;
+  border: solid #292021;
+  border-radius: 102px;
+  color: #ffff;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: 100px; }
+
+.content--button a:hover {
+  background-color: #ffff;
+  border: solid #ffff;
+  color: #292021; }
+
 @media (max-width: 500px) {
   .drawer {
     background-color: #C9C0BB; }
@@ -1678,4 +1697,16 @@ details li a.filtro--a {
   .drawer .closebtn {
     top: 19px; }
   .drawer a {
-    color: #292021; } }
+    color: #292021; }
+  .content--button {
+    margin-left: 137px;
+    margin-top: 100px; }
+  .content--button a {
+    background-color: #292021;
+    border: solid #292021;
+    border-radius: 102px;
+    color: #ffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100px; } }
