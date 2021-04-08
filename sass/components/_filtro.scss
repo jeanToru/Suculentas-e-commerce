@@ -25,6 +25,14 @@ details li a.filtro--a {
 
 @media(max-width: 500px){
   .filtro--Content{
-    margin-left: 53px;
+    margin-top: 10px;
+    margin-left: 246px;
+  }
+}
+
+@media(max-width: 400px){
+  .filtro--Content{
+    margin-top: 10px;
+    margin-left: 216px;
   }
 }
