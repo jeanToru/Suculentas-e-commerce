@@ -77,3 +77,22 @@
   }
 
 }
+
+@media(max-width: 400px){
+  .main-container{
+    display: block;
+  }
+
+  .gallery {
+    margin-left: -11px;
+    width: 390px;
+  }
+  .accordion__info--addCard{
+    margin-left: 42px;
+    width: 238px;
+  }
+  .main-container{
+    width: 350px;
+  }
+
+}
