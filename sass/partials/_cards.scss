@@ -17,28 +17,6 @@
   width: 248px;
 }
 
-.card2 {
-  background-color: $white;
-  border-radius: 20px;
-  box-shadow: -2.23663px 5.96436px 52.1881px rgba(0, 0, 0, 0.048);
-  float: left;
-  margin-bottom: 82px;
-  padding-bottom: 25px;
-  position: relative;
-  width: 248px;
-}
-.card2 a{
-  margin-top: 55px;
-}
-
-.card + .card {
-  margin-left: 24px;
-}
-
-.card2 + .card2 {
-  margin-left: 24px;
-}
-
 .titleCard {
   color: $dark-brown;
   font-size: 18px;
@@ -77,11 +55,12 @@
 
 .offer {
   background-color: #A31523;
+  border-radius: 20px 0px 20px 0px;
   color: $white;
   left: 0px;
   padding: 10px 10px;
   position: absolute;
-  top: 0px;
+  top: -15px;
   width: 24px;
 }
 
@@ -101,26 +80,27 @@
   .content--text{
     display: none;
   }
+
   .content--text-movil{
     display: block;
     margin: 0 auto;
     width: 400px;
   }
+
   .content--text-movil h2{
     text-align: center;
     padding-bottom: 22px;
     padding-top: 50px;
   }
+
   .content-cards{
-    margin-left: 70px;
     width: 400px;
   }
+
   .card {
     width: 175px;
   }
-  .card2{
-    width: 175px;
-  }
+
   .stars {
     margin-left: 0px;
   }
@@ -128,14 +108,8 @@
     margin-left: 5px;
     margin-right: 5px;
   }
-  .card2 + .card2 {
-    margin-left: 1px;
-    margin-right: 5px;
-  }
+
   .card img{
-    width: 175px;
-  }
-  .card2 img{
     width: 175px;
   }
 }
