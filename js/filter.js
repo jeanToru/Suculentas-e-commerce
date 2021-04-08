@@ -1,7 +1,10 @@
+const urlApi = 'https://604fd24fc20143001744dd3e.mockapi.io/Products';
 const cardUpdates = document.querySelector('.content-cards');
+const filtro = document.querySelector('select');
 
-function addCard(info) {
-  for (let i = 0; i < 6; i += 1) {
+function cardDoom(info) {
+  cardUpdates.innerHTML = '';
+  for (let i = 0; i < info.length; i += 1) {
     const card = document.createElement('div');
     const img = document.createElement('img');
     const name = document.createElement('h3');
@@ -11,9 +14,9 @@ function addCard(info) {
     card.setAttribute('class', 'card');
     img.setAttribute('src', `img/${info[i].id}.png`);
     name.setAttribute('class', 'titleCard');
-    name.innerHTML = info[i].nameProduct;
+    name.innerHTML = `${info[i].nameProduct}`;
     price.setAttribute('class', 'price');
-    price.innerHTML = info[i].priceProduct;
+    price.innerHTML = `${info[i].priceProduct}`;
     star.setAttribute('src', 'img/estrellas.png');
     star.setAttribute('class', 'stars');
     links.setAttribute('class', 'button-principal button--margin');
@@ -28,10 +31,25 @@ function addCard(info) {
   }
 }
 
-const urlApi = 'https://604fd24fc20143001744dd3e.mockapi.io/Products';
+let products = [];
+function addCard() {
+  const myArray = [];
+  for (let i = 0; i < 6; i += 1) {
+    myArray.push(products[i]);
+  }
+  const currency = document.querySelector('select').value;
+  if (currency === 'mayor precio') {
+    cardDoom((myArray.sort((a, b) => b.priceProduct - a.priceProduct)));
+  } else {
+    cardDoom((myArray.sort((a, b) => a.priceProduct - b.priceProduct)));
+  }
+}
+
+filtro.addEventListener('change', addCard);
 
 fetch(urlApi)
   .then((response) => response.json())
   .then((data) => {
-    addCard(data);
+    products = data;
+    addCard();
   });
