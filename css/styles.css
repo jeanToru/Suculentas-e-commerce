@@ -322,6 +322,24 @@ summary:hover {
     margin-left: 148px;
     margin-top: 20px; } }
 
+@media (max-width: 400px) {
+  #contact {
+    margin-top: 30px;
+    width: 350px; }
+  #contact--img {
+    height: 160px;
+    width: 350px; }
+  #contact--info {
+    width: 335px; }
+  .form__content input {
+    width: 344px; }
+  #contact--info img {
+    margin-left: 116px; }
+  #contact--info p {
+    font-size: 16px; }
+  .form_button--margin {
+    margin-left: 131px; } }
+
 .container-slider {
   margin: auto;
   max-width: 1100px;
@@ -565,6 +583,18 @@ img {
     margin: 0 auto;
     padding: 8px;
     width: 450px; } }
+
+@media (max-width: 400px) {
+  .main-container {
+    display: block; }
+  .gallery {
+    margin-left: -11px;
+    width: 390px; }
+  .accordion__info--addCard {
+    margin-left: 42px;
+    width: 238px; }
+  .main-container {
+    width: 350px; } }
 
 .modal__content {
   background-color: #c9c0bb;
