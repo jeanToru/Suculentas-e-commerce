@@ -102,9 +102,18 @@
   }
 }
 
-@media(max-width: 300px){
+@media(max-width: 400px){
+  .content--hamburguer{
+    float: right;
+    margin-right: -106px;
+    margin-top: 31px;
+    width: 35px;
+  }
   .menu{
     display: block;
+  }
+  .menu--open{
+    width: 75%;
   }
 
   .hamburger{

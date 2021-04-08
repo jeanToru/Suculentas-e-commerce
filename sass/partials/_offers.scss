@@ -59,9 +59,27 @@
   }
 }
 
-@media(max-width: 300px){
+@media(max-width: 400px){
   .contentOffers {
-    margin-left: 35px;
-    width: 450px;
+    margin-left: 14px;
+    width: 358px;
+  }
+  .contentOffers--img {
+    float: left;
+    height: 276px;
+    width: 358px;
+  }
+  .contentOffers2 {
+    height: 327px;
+    width: 358px;
+
+    h1 {
+      margin-left: 0px;
+    }
+
+    a{
+      margin-left: 115px;
+      text-decoration: none;
+    }
   }
 }

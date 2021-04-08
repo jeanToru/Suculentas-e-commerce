@@ -85,3 +85,12 @@
     width: 100px;
   }
 }
+
+@media(max-width: 400px){
+  .drawer--open{
+    width: 100%;
+  }
+  .content--button{
+    margin-left: 113px;
+  }
+}

@@ -104,10 +104,10 @@
 
 }
 
-@media(max-width: 300px){
+@media(max-width: 400px){
   .footer {
     margin-left: 12px;
-    width: 502px;
+    width: 361px;
   }
   .foo-menu {
     float: left;
@@ -124,21 +124,23 @@
   .follow-us{
     display: block;
     float: none;
-    padding-left: 194px;
+    padding-left: 119px;
     margin-right: 80px;
     margin-top: 29px;
 
     p{
-      margin-left: 0px;
+      margin-left: 2px;
     }
 
     img{
+      height: 43px;
       margin-top: 10px;
       margin-left: 7px;
+      width: 43px;
     }
   }
   .copyright {
-    margin: 0 0 35px 80px;
+    margin: 0 0 35px 10px;
   }
 
 }
