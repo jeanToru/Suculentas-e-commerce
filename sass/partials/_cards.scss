@@ -113,3 +113,17 @@
     width: 175px;
   }
 }
+@media(max-width: 400px){
+  .content--text-movil p{
+    padding: 10px;
+  }
+  .card {
+    float: none;
+    width: 175px;
+    margin-left: 111px;
+  }
+  .card + .card {
+    margin-left: 114px;
+    margin-right: 5px;
+  }
+}
