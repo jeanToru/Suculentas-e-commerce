@@ -120,3 +120,23 @@
     padding: 5px 10px;
   }
 }
+
+@media(max-width: 400px){
+  .shoppingCart__content--title{
+    width: 130px;
+  }
+
+  .shoppingCart__content--info{
+    padding-right: 47px;
+  }
+
+  .info--amount{
+    margin-left: 0px;
+    margin-right: 17px;
+  }
+
+  .info--cost{
+    margin-right: 22px;
+    width: 46px;
+  }
+}

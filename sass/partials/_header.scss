@@ -110,13 +110,28 @@
   }
 }
 
-@media(max-width: 300px){
+@media(max-width: 400px){
+  .header{
+    display: none;
+  }
+  .header--movil{
+    display: block;
+    margin: 0 auto;
+    height: 80px;
+    width: 385px;
+  }
   .header__logo{
     margin-top: 17px;
+    margin-left: 12px;
+    width: 157px;
+  }
+  .header__logo img{
+    width: 175px;
   }
   .signincart{
-    margin-top: 31px;
-    padding-right: 10px;
+    margin-top: 23px;
+    margin-right: 75px;
+    width: 35px;
   }
 }
 

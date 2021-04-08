@@ -64,14 +64,20 @@
   }
 }
 
-@media(max-width: 300px){
+@media(max-width: 400px){
+  .curiosities{
+    height: 400px;
+    margin-left: 12px;
+    margin-right: 0px;
+    padding-top: 100px;
+  }
   .curiosities--img img {
     display: none;
     float: none;
   }
 
   .curiosities__content{
-    width: 475px;
+    width: 366px;
 
     .curiosities--title{
       font-size: 45px;
@@ -79,7 +85,10 @@
       text-align: center;
     }
     a{
-      margin-left: 190px;
+      margin-left: 137px;
     }
+  }
+  .curiosities__content p{
+    margin-left: 3px;
   }
 }
