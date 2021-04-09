@@ -883,12 +883,17 @@ nav.breadcrumb [aria-current="page"] {
 .button--margin {
   margin-left: 60px; }
 
+.button--carrusel {
+  margin-left: 11px; }
+
 @media (max-width: 500px) {
   .button-principal {
     font-size: 16px;
     padding: 10px 15px; }
   .button--margin {
-    margin-left: 25px; } }
+    margin-left: 25px; }
+  .button--carrusel {
+    margin-left: 18px; } }
 
 #cards {
   margin: 0 auto;
