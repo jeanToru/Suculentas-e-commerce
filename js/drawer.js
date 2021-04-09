@@ -1,8 +1,6 @@
 const carrito = document.getElementById('drawer--view');
 const carritoMovil = document.getElementById('drawer--movil');
 const cierre = document.getElementById('drawer--close');
-console.log(carrito);
-console.log(carritoMovil);
 
 function openNave() {
   document.getElementById('drawer--js').classList.remove('drawer--close');
