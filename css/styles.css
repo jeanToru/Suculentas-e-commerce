@@ -43,11 +43,11 @@ a {
 #shoppingCart {
   margin: 0 auto;
   margin-top: 100px;
-  width: 1080px; }
+  width: 100%; }
 
 .shoppingCart__content {
   border-bottom: 1px solid #886750;
-  width: 650px; }
+  width: 100%; }
 
 .shoppingCart__content--img {
   float: left;
