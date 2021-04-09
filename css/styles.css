@@ -1958,7 +1958,10 @@ nav.breadcrumb [aria-current="page"] {
   .drawer--open {
     width: 100%; }
   .content--button {
-    margin-left: 113px; } }
+    margin-left: 113px; }
+  .drawer .closebtn {
+    top: 19px;
+    right: 13px; } }
 
 .cardDetail {
   background-color: #c9c0bb;

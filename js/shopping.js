@@ -1,14 +1,19 @@
+// se crea un array para guardar la info de la Api
 let inforCarrito = [];
 const actualizar = document.getElementById('addjs');
-
+// se crea la funcion encargada de eliminar los productos del DOM y de la Api
 function deleteproduct(id) {
   fetch(`https://604fd24fc20143001744dd3e.mockapi.io/Carrito/${id}`, {
     method: 'DELETE'
   })
-  setTimeout('call()', 1000);
-  setTimeout('callshow()', 1000);
+  .then((response) => {
+    if (response.ok) {
+      // si se elimina correctamente el producto se llama a call para refrescar el DOM
+      call();
+    }
+  })
 }
-
+// se crea los productos con su info
 function contendor(cardinfo) {
   const contentCart = document.getElementById('shoppingCart');
   const divsubpadre = document.createElement('div');
@@ -51,7 +56,7 @@ function contendor(cardinfo) {
     event.currentTarget.parentNode.parentNode.remove();
   });
 }
-
+// se crea call para hacer un fetch de tipo get para obtener informacion del Api
 function call(){
 fetch('https://604fd24fc20143001744dd3e.mockapi.io/Carrito')
   .then((response) => response.json())
@@ -60,13 +65,9 @@ fetch('https://604fd24fc20143001744dd3e.mockapi.io/Carrito')
     const contentCart = document.getElementById('shoppingCart');
     contentCart.innerHTML = '';
     for (let i = 0; i < inforCarrito.length; i += 1) {
+      // se llama a la funcion que imprime en el DOM
       contendor(inforCarrito[i], i);
     }
   });
 }
 call();
-  actualizar.addEventListener('click', (event) => {
-    event.preventDefault();
-    console.log(actualizar);
-    setTimeout('call()', 1000);
-  });

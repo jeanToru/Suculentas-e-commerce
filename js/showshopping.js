@@ -1,3 +1,4 @@
+// se crea la funcion para imprimir la informacion de la Api al DOM
 function contendorshow(cardinfo) {
   const contentCart = document.getElementById('showshoppingCart');
   const divsubpadre = document.createElement('div');
@@ -40,7 +41,7 @@ function contendorshow(cardinfo) {
     event.currentTarget.parentNode.parentNode.remove();
   });
 }
-
+// esta funcion hace un fetch para obtener la info del Api y lo imprime en el DOM
 function callshow() {
   fetch('https://604fd24fc20143001744dd3e.mockapi.io/Carrito')
     .then((response) => response.json())
@@ -51,8 +52,10 @@ function callshow() {
       contentCart.innerHTML = '';
       contentCartshow.innerHTML = '';
       for (let i = 0; i < inforCarrito.length; i += 1) {
-        contendor(inforCarrito[i], i);
-        contendorshow(inforCarrito[i], i);
+        // esta funcion esta definida en shopping.js
+        contendor(inforCarrito[i]);
+        // se llama la funcion que crea en el DOM
+        contendorshow(inforCarrito[i]);
       }
     });
   }
