@@ -1229,6 +1229,10 @@ nav.breadcrumb [aria-current="page"] {
       .map--Movil > button.active {
         background: #886750; } }
 
+@media (max-width: 400px) {
+  .carrusel--Movil h1 {
+    margin-left: 25px; } }
+
 .curiosities--h1 {
   font-size: 45px;
   text-align: center; }
